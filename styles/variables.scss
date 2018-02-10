@@ -1,0 +1,22 @@
+$color-green: #4da091;
+$color-green-light: #68d8c4;
+$color-black: #110b11;
+$color-grey: #c4c4c4;
+$color-white: #f4f4f4;
+
+
+
+$color-blue-dark: #06407F;
+$color-purple: #736AB1;
+$color-purple-light: #A8A4D3;
+
+$theme-text: #111111;
+$theme-text-alt: $color-grey;
+$theme-background: $color-blue-dark;
+$theme-block: $color-purple-light;
+$theme-accent: $color-blue-dark;
+
+// only for nav:
+$theme-accent-hl-nav: #9ec3ff;
+
+$theme-accent-hl: lighten($color-blue-dark, 25%);

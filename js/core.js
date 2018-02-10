@@ -1,0 +1,59 @@
+var partials = ['eng_long', 'styles', 'nav', 'favicon'];
+
+$(function() {
+  console.log("loaded the core js file");
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69497779-1', 'auto');
+  ga('send', 'pageview');
+
+  // Front page down arrow hide on scroll
+  $(window).scroll(function (event) {
+
+      var scroll = $(window).scrollTop();
+
+      if (scroll > 60)
+        $('#downArrow').addClass('hidden');
+      else
+        $('#downArrow').removeClass('hidden');
+
+  });
+
+  Handlebars.registerHelper('html', function(str) {
+    return str + '.html';
+  });
+
+  Handlebars.registerHelper('decode', function(str) {
+    console.log(str);
+    console.log(encodeURI(str));
+    console.log()
+    return decodeURI(str);
+  });
+
+  Handlebars.registerHelper('jsonPrint', function(str) {
+
+    return JSON.stringify(str);
+  });
+
+  Handlebars.registerHelper('ifeq', function(a, b, options) {
+    console.log(a, b);
+    if (a == b) {
+      console.log("same");
+        return options.fn(this);
+    } else {
+        return options.inverse(this);
+    }
+  });
+
+    // for ( var i = 0; i < partials.length; i++ ) {
+    //   $.get('partials/' + partials[i] + '.hbs', function (data) {
+    //       var template = Handlebars.compile(data);
+    //       Handlebars.registerPartial(partials[i], template(template));
+    //   }, 'html')
+    // }
+
+});

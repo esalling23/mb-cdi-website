@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="fw_source" value="/cdihierarchical4.png" />
+	<infoitem key="fw_slice_info" value="0 27e 5a 0 56 27d 4 0" />
+	<infoitem key="dw_new_image_map" value="&lt;MAP NAME=&quot;m_cdinavigation_r3_c1&quot;&gt;&#xD;&lt;AREA SHAPE=&quot;rect&quot; COORDS=&quot;515,16,609,64&quot; HREF=&quot;#&quot; onMouseOut=&quot;FW_startTimeout();&quot;  onMouseOver=&quot;MM_displayStatusMsg('Welcome to the CDI Website!');window.FW_showMenu(window.fw_menu_3,534,101);return document.MM_returnValue&quot;  &gt;&#xD;&lt;/MAP&gt;" />
+</info>

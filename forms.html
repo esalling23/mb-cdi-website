@@ -1,0 +1,130 @@
+<html>
+<head>
+
+  <title>CDI Forms -- MacArthur-Bates Communicative Development Inventories</title>
+
+
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.woff2">
+    <link href="fonts/glyphicons-halflings-regular.woff">
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="styles/carousel.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
+    <link href="styles/core.css" rel="stylesheet">
+
+          <!-- ****** faviconit.com favicons ****** -->
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
+      <link rel="icon" type="image/png" sizes="196x196" href="favicon-192.png">
+      <link rel="icon" type="image/png" sizes="160x160" href="favicon-160.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
+      <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+      <link rel="apple-touch-icon" href="favicon-57.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon-144.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon-60.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon-120.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon-76.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+      <meta name="msapplication-TileColor" content="#FFFFFF">
+      <meta name="msapplication-TileImage" content="favicon-144.png">
+      <meta name="msapplication-config" content="browserconfig.xml">
+      <!-- ****** faviconit.com favicons ****** -->
+
+    </head>
+  <!-- NAVBAR
+  ================================================== -->
+    <body>
+      <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+          <div class="container-fluid">
+              <div class="navbar-header"><a class="navbar-brand" href="index.html"><img src="images/logobgtan.png" onmouseover="this.src='images/logobgtanner.png'" onmouseout="this.src='images/logobgtan.png'" style="width:200px; margin-top:-13px;"/></a>
+
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-menubuilder">
+                  <ul class="nav navbar-nav navbar-left" style="font-size: 32px;">
+                      <li><a  href="board.html">Advisory Board</a>
+                      </li>
+                      <li><a href="forms.html">CDI Forms</a>
+                      </li>
+                      <li><a  href="adaptations.html">Adaptations</a>
+                      </li>
+                      <li><a  href="scoringdb_p.htm">Scoring Program</a>
+                      </li>
+                      <!-- <li><a href="contact.html">Contact</a>
+                      </li> -->
+
+                  </ul>
+
+              </div>
+          </div>
+      </div>
+
+      <div id="cdiForms" class="page"></div>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="undernav">
+              <ul>
+                <li>
+                  <a id="contact" class="btn btn-default " href="contact.html" role="button"><strong>Contact Us!</strong></a>
+                </li>
+                <li>
+                  <a id="contact" class="btn btn-default " href="resources.html" role="button"><strong>Resources</strong></a>
+                </li>
+                <li>
+                  <a id="contact" class="btn btn-default" href="memorial.html" role="button"><strong>Bates Memorial</strong></a>
+                </li>
+        <li>
+                  <a id="contact" class="btn btn-default" href="news.html" role="button"><strong>Announcements and News!</strong></a>
+                </li>
+              </ul>
+            </div>
+
+          <div id="Copywrite">
+            <p class="pull-right"><span id="minorlink"><a href="#">Back to top</a></span></p>
+            <p><span id="minorlink"><a href="copyright.html">&copy; 2015 CDI Advisory Board</a></span></p>
+            <p><span id="minorlink"><a href="https://github.com/esalling23">Designed by Erica Salling</a></span></p>
+        </div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/core.js"></script>
+
+    <script id="formsTemplate" type="text/x-handlebars-template">​
+      <h2>CDI Forms</h2>
+     {{#each this}}
+     <div class="row">
+       {{#each this}}
+       <a href="{{html this.key}}">
+          <div id={{this.key}} class="form box">
+            <h2>{{{this.name}}}</h2>
+            {{#if this.image}}<img src="{{this.image}}">{{/if}}
+          </div>
+       </a>
+       {{/each}}
+     </div>
+     {{/each}}
+    ​</script>
+
+    <script src="js/formsTemplate.js"></script>
+
+  </body>
+</html>
