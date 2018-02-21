@@ -143,9 +143,12 @@ a {
   margin-bottom: 10%; }
   .form.section h2 {
     margin-left: 0px; }
+  .form.section h3 {
+    margin-top: 20px; }
   .form.section img {
     margin: 0 auto;
-    height: 200px;
+    margin-top: 20px;
+    height: auto;
     width: 200px; }
 .form.box {
   border: 1px solid #06407F;
