@@ -1,5 +1,6 @@
 var partials = ['eng_long', 'styles', 'nav', 'favicon'];
 
+
 $(function() {
   console.log("loaded the core js file");
 
@@ -18,11 +19,13 @@ $(function() {
 
       var scroll = $(window).scrollTop();
 
-      if (scroll > 60)
-        $('#downArrow').addClass('hidden');
-      else
-        $('#downArrow').removeClass('hidden');
-
+      if (scroll > 60) {
+        if ($('#downArrow').css('display') != 'none')
+          $('#downArrow').fadeOut(150);
+      } else {
+        if($('#downArrow').css('display') == 'none')
+          $('#downArrow').fadeIn(150);
+      }
   });
 
   Handlebars.registerHelper('htmlUrl', function(str) {
@@ -55,12 +58,5 @@ $(function() {
         return options.inverse(this);
     }
   });
-
-    // for ( var i = 0; i < partials.length; i++ ) {
-    //   $.get('partials/' + partials[i] + '.hbs', function (data) {
-    //       var template = Handlebars.compile(data);
-    //       Handlebars.registerPartial(partials[i], template(template));
-    //   }, 'html')
-    // }
-
+  
 });

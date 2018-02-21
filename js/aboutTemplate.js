@@ -67,10 +67,64 @@ $(function() {
           body: [
             {
               textGroup: [
-                "The Advisory Board is pleased to announce the availability of English Words &amp; Gestures, Words &amp; Sentences, and CDI III in fillable PDF format! Like the short forms, parents can fill out the classic MacArthur-Bates instruments on their own laptops or computers using Adobe Reader.  Exporting the data requires Adobe Acrobat. Now available from Brookes Publishing. Click the links below to learn more!",
-                "[Words &amp; Gestures](http://products.brookespublishing.com/MacArthur-Bates-Communicative-Development-Inventories-CDI-Words-Gestures-E-Form-English-P1002.aspx)",
-                "[Words &amp; Sentences](http://products.brookespublishing.com/MacArthur-Bates-Communicative-Development-Inventories-CDI-Words-and-Sentences-E-Form-English-P1001.aspx)",
-                "[CDI III](http://products.brookespublishing.com/The-MacArthur-Bates-Communicative-Development-Inventory-III-P1004.aspx)"
+                "The Advisory Board is saddened to announce the death of our longtime colleague and friend, J. Steven Reznick. Steve was a gifted and generous teacher, researcher, mentor, collaborator and friend. Learn more about Steve's life [here](http://www.unc.edu/campus-updates/a-legacy-of-courage-and-inspiration/)."
+            ] }
+         ]
+      }, {
+          name: 'December 2015',
+          key: 'dec_2015',
+          body: [
+            {
+              textGroup: [
+                "Now available!  Fillable pdfs of the English and Spanish short forms!  All forms can be downloaded and emailed to parents to complete on their own computers or tablets.  Users should advise parents that they will need the latest version of Adobe Reader (Version X or higher) to save the completed forms and email them back to you. Exporting the data is easy (csv) using Adobe Acrobat.  There is a $10 license fee per form, plus 30 cents per anticipated number of administrations. To order, contact Larry Fenson at lfenson@gmail.com"
+            ] }
+         ]
+      }, {
+          name: 'Novemember 2015',
+          key: 'nov_2015',
+          body: [
+            {
+              textGroup: [
+                "The MacArthur-Bates CDI Advisory Board is pleased to announce the availability of downloadable fillable pdf versions of the English-language Short Forms! These can be downloaded and emailed to parents to complete on their own computers or tablets. Users should advise parents that they will need the latest version of Adobe Reader (Version X or higher) to save the completed forms and email them back to you. To export the data into csv format for scoring, users will need to purchase Adobe Acrobat, which is available for academic discount through most institutions. The fillable forms can be ordered through Larry Fenson at lfenson@gmail.com"
+            ] }
+         ]
+      }, {
+          name: 'July 2014',
+          key: 'july_2014',
+          body: [
+            { textGroup: [
+                "We are pleased to announce a new project, Wordbank, an open database for storing information about children's vocabulary growth using the MacArthur-Bates CDIs in many different languages. See our website for information about our progress and find out how you can contribute your data!"
+            ] },
+            { textGroup: [
+                "[Wordbank](http://wordbank.stanford.edu)"
+            ] }
+         ]
+      }, {
+          name: 'March 2014',
+          key: 'march_2014',
+          body: [
+            { textGroup: [
+                "The MacArthur-Bates CDI Advisory Board is pleased to announce that two new members have joined the board, Dr. Margaret Friend (SDSU) and Dr. Michael Frank (Stanford University). Welcome Maggie and Mike!"
+            ] },
+            { textGroup: [
+                "[Advisory Board](/board.html)"
+            ] }
+         ]
+      }, {
+          name: 'October 2013',
+          key: 'oct_2013',
+          body: [
+            { textGroup: [
+                "To mark the 25th anniversary of the work of the MacArthur-Bates CDI Advisory Board, we have placed the entire norming dataset in the public domain, now downloadable here and directly through the CHILDES website. This dataset is available in both SPSS and Excel formats. Please contact Philip Dale or Virginia Marchman with any questions."
+            ] },
+            { textGroup: [
+                "[CDI Norming Data](http://childes.psy.cmu.edu/tools/CDI/)"
+            ] },
+            { textGroup: [
+              'An updated version of the CDI Scoring Program is now available:'
+            ]}
+            { textGroup: [
+                "[CDI Scoring Program Version 2013](/scores.html#download)"
             ] }
          ]
       }
@@ -115,14 +169,6 @@ $(function() {
         ]
      }
   };
-
-   console.log("loaded about template");
-
-   // {{#if ../../buttonLinks}}
-   //   {{{htmlBtn this}}}
-   // {{else}}
-   //  {{{html this}}}
-   // {{/if}}
 
   var aboutTemplateScript = $("#aboutTemplate").html();
   var aboutTemplate = Handlebars.compile(aboutTemplateScript);

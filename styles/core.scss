@@ -152,6 +152,7 @@ a {
 .resources {
 	.textGroup {
 		margin-top: 20px;
+
 	}
 }
 
@@ -427,13 +428,6 @@ a {
 	position: fixed;
 	bottom: 0px;
 	left: calc(50% - 70px);
-	webkit-transition: all  0.5s;
-	transition: all  0.5s;
-
-	&.hidden {
-		display:none;
-
-	}
 }
 
 .intro {
@@ -613,9 +607,8 @@ a {
 
 #Copywrite {
   margin-bottom: 1%;
-   margin-left: 3%;
+   margin-left: 2%;
    margin-right: 5%;
-
 }
 
 footer {
@@ -965,7 +958,7 @@ h3 {
   font-size: inherit;
 }
 
-#minorlink {
+.minorlink {
 
 	a {
 	  color: $theme-accent;
