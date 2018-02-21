@@ -42,8 +42,9 @@
   <body>
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
         <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"><img src="http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png" onmouseover="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228549/mb-cdi/CDI_logo_blue_light.png'" onmouseout="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png'" style="width:200px; margin-top:-13px;"/></a>
+          <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png" onmouseover="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228549/mb-cdi/CDI_logo_blue_light.png'" onmouseout="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png'" style="width:200px; margin-top:-13px;"/></a>
+
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
             </div>
@@ -68,7 +69,7 @@
         </div>
     </div>
 
-    <div id="cdiForms" class="page"></div>
+    <div id="aboutPage" class="page"></div>
 
     <!-- FOOTER -->
     <footer>
@@ -107,22 +108,67 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/core.js"></script>
 
-    <script id="formsTemplate" type="text/x-handlebars-template">​
-    {{#each this}}
-    {{#each this}}
-       {{#ifeq this.key "eng_long"}}
-          <div id="{{this.key}}" class="form section">
-            <h2>{{{this.name}}}</h2>
-            {{#each this.text}}<p>{{{html this}}}</p>{{/each}}
-            {{#if this.image}}<img src="{{this.image}}">{{/if}}
+    <script id="aboutTemplate" type="text/x-handlebars-template">​
+      <div class="row left-grid">
+        <div class="col-md-12">
+          <div class="contact">
+            <h2>Contact Us!</h2>
+            <h3>Larry Fenson</h3>
+            <p>Chair of Advisory Board<br>
+            Department of Psychology<br>
+            San Diego State University<br>
+            <strong>EMAIL: </strong><span id="minorlink"><a href="mailto:lfenson@gmail.com">lfenson@gmail.com</a></span><p>
+            <h4>You may also contact any of the other member of the <span id="minorlink"><a href="board.html">Advisory Board</a></span></h4>
+            <h4>Parents, are you filling out the CDI on FACEBOOK? Contact us at <a href="mailto:Webcdi-contact@stanford.edu">Webcdi-contact@stanford.edu</a> if you have
+            any questions or comments!</span></h4>
           </div>
-       {{/ifeq}}
-     {{/each}}
-     {{/each}}
-     <a id="formsBack" href="forms.html">Back</a>
+          <div class="resources">
+            <h2>Resources</h2>
+            <h3>Below are some downloads that will be helpful to you for administration/scoring.</h3>
+             <ul class="list-group">
+               {{#each resources.body}}
+
+                   {{#each this}}
+                   <div class="textGroup {{#if ../buttonLinks}}btnLinksGroup{{/if}}">
+
+                   {{#each this}}
+                     {{{html this}}}
+                   {{/each}}
+                 </div>
+
+                   {{/each}}
+
+               {{/each}}
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <!-- Announcements Thread -->
+      <div class="right-grid news col-md-5">
+
+        <h2>Announcements and News</h3>
+        {{#each news}}
+        <h3>{{this.name}}:</h3>
+         <ul class="list-group">
+           {{#each body}}
+           <li class="list-group-item">
+             {{#each this}}
+             {{#each this}}
+             <p>{{{html this}}}</p>
+             {{/each}}
+             {{/each}}
+           </li>
+           {{/each}}
+         </ul>
+       {{/each}}
+     </div>
+
+      <!-- Resources Thread -->
+
     ​</script>
 
-    <script src="js/formsTemplate.js"></script>
+    <script src="js/aboutTemplate.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 

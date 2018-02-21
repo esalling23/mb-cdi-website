@@ -100,7 +100,8 @@
     <div class="container-fluid">
 
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html"><img src="images/logobgtan.png" onmouseover="this.src='images/logobgtanner.png'" onmouseout="this.src='images/logobgtan.png'" style="width:200px; margin-top:-13px;" /></a>
+        <a class="navbar-brand" href="index.html"><img src="http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png" onmouseover="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228549/mb-cdi/CDI_logo_blue_light.png'" onmouseout="this.src='http://res.cloudinary.com/esalling/image/upload/v1519228543/mb-cdi/CDI_logo_white.png'" style="width:200px; margin-top:-13px;"/></a>
+
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 
@@ -111,32 +112,18 @@
       <div class="collapse navbar-collapse navbar-menubuilder">
 
         <ul class="nav navbar-nav navbar-left" style="font-size: 32px;">
-
+          <li><a  href="about.html">About</a>
+          </li>
           <li><a href="board.html">Advisory Board</a>
-
           </li>
-
           <li><a href="forms.html">CDI Forms</a>
-
           </li>
-
           <li><a href="adaptations.html">Adaptations</a>
-
           </li>
-
-          <li><a href="scoringdb_p.htm">Scoring Program</a>
-
+          <li><a href="scores.html">Scoring Program</a>
           </li>
-
-          <!-- <li><a href="contact.html">Contact</a>
-
-                            </li> -->
-
-
 
         </ul>
-
-
 
       </div>
 
@@ -220,8 +207,8 @@
 
     <script id="adaptationsTemplate" type="text/x-handlebars-template">​
       <div class="dropdown">
-        <select id="adaptationSelect" class="input">
-  					<option class="adapt-option" value="home" selected>Select Team</option>
+        <select id="adaptationSelect" class="input form-control">
+  					<option class="adapt-option" value="home" selected>Available Adaptations</option>
   					{{#each forms}}
   					<option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
   					{{/each}}
@@ -230,7 +217,7 @@
 
       <div id="home" class="adaptation section" style="display:block">
 
-          <h2>Adaptations in Other Languages</h2>
+          <h2 class="adaptation-title">Adaptations in Other Languages</h2>
           <p>Adaptations of the MacArthur-Bates CDIs have been developed in a number of languages other than American English, including separate versions for dialects which are sufficiently different to merit alternate instruments. The authors of each
             adaptation version should be contacted directly for information. Contact information and some additional information for these adaptations, can be found on this page. We are currently compiling more complete information about the adaptations,
             and the listing will be updated as that information becomes available. You may also contact Philip Dale for more information.</p>
@@ -244,47 +231,17 @@
      {{#each forms}}
 
         <div class="adaptation section" id="{{this.key}}">
-          <h2>{{this.name}}</h2>
+          <h2 class="adaptation-title">{{this.name}}</h2>
           {{#if this.body}}
             {{#each this.body}}
               {{#if this.textGroup}}
+              <div class="textGroup">
                 {{#each this.textGroup}}
-
-                  {{#each this}}
-                    {{#if @first}}
-                    <div>
-                      {{#if this.style}}
-                      <p style="
-                        {{#each this.style}}
-                          {{#each this}}{{@key}}: {{this}};{{/each}}
-                        {{/each}}
-                        ">
-                      {{else}}
-                        <p>
-                      {{/if}}
-                    {{else}}
-                      {{#if this.inlinePrev}}{{else}}<br>{{/if}}
-                    {{/if}}
-
-                    {{#if this.text}}
-                      {{#if this.link}}
-                        <a href="{{this.link}}">{{{this.text}}}</a>
-                      {{else}}
-                        {{{this.text}}}
-                      {{/if}}
-                    {{else}}
-                      {{{this}}}
-                    {{/if}}
-
-                    {{#if @last}}</div>{{/if}}
-                  {{/each}}
-                  
+                  {{{html this}}}
                 {{/each}}
-
+              </div>
               {{else}}
-
-                <p>{{this}}</p>
-
+                {{{html this}}}
               {{/if}}
             {{/each}}
           {{/if}}
@@ -298,6 +255,7 @@
           {{#if this.image}}<img src="{{this.image}}">{{/if}}
         </div>
      {{/each}}
+
     ​</script>
 
     <script src="js/adaptationsTemplate.js"></script>

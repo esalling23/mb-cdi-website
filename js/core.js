@@ -11,6 +11,8 @@ $(function() {
   ga('create', 'UA-69497779-1', 'auto');
   ga('send', 'pageview');
 
+  var converter = new showdown.Converter();
+
   // Front page down arrow hide on scroll
   $(window).scroll(function (event) {
 
@@ -23,8 +25,13 @@ $(function() {
 
   });
 
-  Handlebars.registerHelper('html', function(str) {
+  Handlebars.registerHelper('htmlUrl', function(str) {
     return str + '.html';
+  });
+
+  Handlebars.registerHelper('html', function(str) {
+    var html = converter.makeHtml(str);
+    return html;
   });
 
   Handlebars.registerHelper('decode', function(str) {

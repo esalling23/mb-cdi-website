@@ -110,10 +110,12 @@
     <script id="formsTemplate" type="text/x-handlebars-template">​
     {{#each this}}
     {{#each this}}
-       {{#ifeq this.key "eng_long"}}
+       {{#ifeq this.key "eng_short"}}
           <div id="{{this.key}}" class="form section">
             <h2>{{{this.name}}}</h2>
-            {{#each this.text}}<p>{{{html this}}}</p>{{/each}}
+            {{#each this.textGroup}}
+              {{{html this}}}
+            {{/each}}
             {{#if this.image}}<img src="{{this.image}}">{{/if}}
           </div>
        {{/ifeq}}

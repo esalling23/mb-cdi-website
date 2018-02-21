@@ -13,7 +13,7 @@ $color-purple-light: #A8A4D3;
 $theme-text: #111111;
 $theme-text-alt: $color-grey;
 $theme-background: $color-blue-dark;
-$theme-block: $color-purple-light;
+$theme-block: lighten($color-purple-light, 10%);
 $theme-accent: $color-blue-dark;
 
 // only for nav:
