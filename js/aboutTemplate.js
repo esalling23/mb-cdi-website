@@ -122,7 +122,7 @@ $(function() {
             ] },
             { textGroup: [
               'An updated version of the CDI Scoring Program is now available:'
-            ]}
+            ]},
             { textGroup: [
                 "[CDI Scoring Program Version 2013](/scores.html#download)"
             ] }
