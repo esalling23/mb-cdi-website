@@ -97,7 +97,7 @@
        {{#ifeq this.key "cdi"}}
           <div id="{{this.key}}" class="form section">
             <h2>{{{this.name}}}</h2>
-            {{#each this.text}}<p>{{{this}}}</p>{{/each}}
+            {{#each this.body}}<p>{{{this}}}</p>{{/each}}
             {{#if this.image}}<img src="{{this.image}}">{{/if}}
           </div>
        {{/ifeq}}

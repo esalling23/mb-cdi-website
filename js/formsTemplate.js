@@ -18,10 +18,8 @@ $(function() {
            'The manual as well as the forms can be ordered from Brookes: &#36;.35',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
-           'Visit them online at [www.brookespublishing.com/cdi](www.brookespublishing.com/cdi)'
-         ],
-         links: [
-
+           'Visit them online at [www.brookespublishing.com/cdi](www.brookespublishing.com/cdi)',
+           'See references for the English Long Forms [here](referencesEL.html)'
          ],
          image: 'images/forms/EnglishWG.jpg'
        }, {
@@ -58,6 +56,7 @@ $(function() {
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
            'Visit them [online](http://www.brookespublishing.com/cdi)',
+           'See references for the Spanish Long Forms [here](referencesSL.html)'
          ],
          image: 'images/forms/SpanishWS.jpg'
        }, {
@@ -72,7 +71,7 @@ $(function() {
            'Email: lfenson@gmail.com',
            '### Now Available!',
            '*Announcing new downloadable fillable pdf versions of the Spanish-language Short Forms! These can be downloaded and emailed to parents to complete on their own computers or tablets. Please advise parents that they will need the latest version of Adobe Reader (Version X or higher) to save the completed forms and email them back to you. To export the data into csv format for scoring, you will need to purchase Adobe Acrobat, which is available for academic discount through most institutions. There is a $10 license fee per form, plus 30 cents per anticipated number of administrations. To order, contact Larry Fenson*',
-           'An article describing the norming of the Spanish short forms is available [here](#).'
+           'An article describing the norming of the Spanish short forms is available [here](documents/JacksonMaldonadoMarchmanFernald_AppPsyling_2013.pdf).'
          ],
          image: 'images/forms/spanshort2.jpg'
        },

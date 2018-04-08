@@ -1311,8 +1311,8 @@ $(function() {
              "Click here to view more information provided directly by the authors! [Info2017-Korean](documents/Info2017-Korean.pdf)"
            ]},
            { textGroup: [
-             "![korean manual image](/images/forms/KoreanManual.jpg)",
-             "![korean wg form](forms/Korean_WG.jpg)"
+             "![korean manual image](images/forms/KoreanManual.jpg)",
+             "![korean wg form](images/forms/Korean_WG.jpg)"
            ]},
            { textGroup: [
              "Publications",
@@ -1436,7 +1436,8 @@ $(function() {
            ]},
            { textGroup: [
              "Manual:",
-              "Tardif, T. and Fletcher, P. Chinese Communicative", "Development Inventories: User's Guide and Manual (2008), Peking University Medical Press, Beijing, China.",
+              "Tardif, T. and Fletcher, P. Chinese Communicative",
+              "Development Inventories: User's Guide and Manual (2008), Peking University Medical Press, Beijing, China.",
               "[www.pumpress.com.cn](www.pumpress.com.cn)"
            ]},
            { textGroup: [
