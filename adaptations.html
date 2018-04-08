@@ -120,9 +120,6 @@
           </li>
           <li><a href="adaptations.html">Adaptations</a>
           </li>
-          <li><a href="scores.html">Scoring Program</a>
-          </li>
-
         </ul>
 
       </div>
@@ -139,46 +136,21 @@
 
   </div>
 
-    <footer>
+  <footer>
+    <div class="undernav">
 
-      <div class="undernav">
-
-        <ul>
-
-
-          <li>
-
-            <a id="contact" class="nav-link" href="memorial.html" role="button"><strong>Bates Memorial</strong></a>
-
-          </li>
-
-        </ul>
-
-
-        <div id="Copywrite">
-
-          <p class="pull-right"><a class="nav-link" href="#">Back to top</a></p>
-
-          <p><a class="nav-link" href="copyright.html">&copy; 2015 CDI Advisory Board</a></p>
-
-          <p><a class="nav-link" href="https://github.com/esalling23">Designed by Erica Salling</a></p>
-
-        </div>
-
+      <div id="Copywrite">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p><a class="nav-link" href="copyright.html">&copy; 2015 CDI Advisory Board</a></p>
+        <p><a class="nav-link" href="https://github.com/esalling23">Designed by Erica Salling</a></p>
       </div>
 
-    </footer>
+    </div>
+  </footer>
 
 
 
     <!-- /.container -->
-
-
-
-
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 
@@ -194,21 +166,34 @@
         <select id="adaptationSelect" class="input form-control">
   					<option class="adapt-option" value="home" selected>Available Adaptations</option>
   					{{#each forms}}
+            {{#if this.labeled}}
+            <optgroup label="{{this.label}}">
+              <option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
+            </optgroup>
+            {{else}}
   					<option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
-  					{{/each}}
+            {{/if}}
+            {{/each}}
   			</select>
       </div>
 
-      <div id="home" class="adaptation section" style="display:block">
+      <div id="home" class="adaptation section row" style="display:block">
 
+        <div class="col-md-8">
           <h2 class="adaptation-title">Adaptations in Other Languages</h2>
-          <p>Adaptations of the MacArthur-Bates CDIs have been developed in a number of languages other than American English, including separate versions for dialects which are sufficiently different to merit alternate instruments. The authors of each
-            adaptation version should be contacted directly for information. Contact information and some additional information for these adaptations, can be found on this page. We are currently compiling more complete information about the adaptations,
-            and the listing will be updated as that information becomes available. You may also contact Philip Dale for more information.</p>
-          <p>Developers of adaptations of the CDIs should remember that the original US English and Mexican Spanish CDI instruments are copyrighted, and creation of new adaptations of these instruments in other languages requires permission of the CDI
-            Advisory Board.</p>
-          <p>The CDI Advisory Board has formulated guidelines for obtaining authorization for adaptations of the CDIs into other languages, as can be found in <span id="minorlink"><a href="documents/AdaptationsInformation2015.pdf" download>Adaptations Information</a></span>.</p>
-          <p>We also suggest that before undertaking an adaptation project, investigators should read <span class="minorlink"><a href="documents/AdaptationsNotTranslations2015.pdf" download>Adaptations, not Translations!</a></span></p>
+          <p>Adaptations of the MacArthur-Bates CDIs have been developed in a number of languages other than American English, including separate versions for dialects which are sufficiently different to merit alternate instruments. The authors of each adaptation version should be contacted directly for information. Contact information and some additional information for these adaptations, can be found on this page. We are currently compiling more complete information about the adaptations, and the listing will be updated as that information becomes available. You may also contact Philip Dale for more information.</p>
+          <p>Developers of adaptations of the CDIs should remember that the original US English and Mexican Spanish CDI instruments are copyrighted, and creation of new adaptations of these instruments in other languages requires permission of the CDI Advisory Board.</p>
+          <p>The CDI Advisory Board has formulated guidelines for obtaining authorization for adaptations of the CDIs into other languages, as can be found in the <i>Adaptations Guide</i>.</p>
+          <p>We also suggest that before undertaking an adaptation project, investigators should read <i>Adaptations, Not Translations!</i></p>
+        </div>
+        <div class="col-md-3" style="margin-left: 40px;">
+          <h3 style="margin-bottom: 30px;">Important Documents:</h3>
+          <button class="btn btn-default">
+            <a href="documents/AdaptationsNotTranslations2015.pdf">Adaptations Not Translations</a></button>
+          <button class="btn btn-default">
+            <a href="documents/AdaptationsInformation2015.pdf">Adaptations Guide</a></button>
+
+        </div>
 
       </div>
 

@@ -58,10 +58,6 @@
                     </li>
                     <li><a  href="adaptations.html">Adaptations</a>
                     </li>
-                    <li><a  href="scores.html">Scoring Program</a>
-                    </li>
-                    <!-- <li><a href="contact.html">Contact</a>
-                    </li> -->
 
                 </ul>
 
@@ -69,16 +65,11 @@
         </div>
     </div>
 
-    <div id="aboutPage" class="page"></div>
+    <div id="insert" class="aboutPage page"></div>
 
     <!-- FOOTER -->
     <footer>
       <div class="undernav">
-            <ul>
-              <li>
-                <a id="contact" class="nav-link"  href="memorial.html" role="button"><strong>Bates Memorial</strong></a>
-              </li>
-            </ul>
 
         <div id="Copywrite">
           <p class="pull-right"><a href="#">Back to top</a></p>
@@ -122,12 +113,10 @@
 
                    {{#each this}}
                    <div class="textGroup {{#if ../buttonLinks}}btnLinksGroup{{/if}}">
-
-                   {{#each this}}
-                     {{{html this}}}
-                   {{/each}}
-                 </div>
-
+                     {{#each this}}
+                       {{{html this}}}
+                     {{/each}}
+                   </div>
                    {{/each}}
 
                {{/each}}
@@ -135,25 +124,34 @@
           </div>
         </div>
       </div>
-      <div class="row">
-      <!-- Announcements Thread -->
-      <div class="right-grid news col-md-5">
 
-        <h2>Announcements and News</h3>
-        {{#each news}}
-        <h3>{{this.name}}:</h3>
-         <ul class="list-group">
-           {{#each body}}
-           <li class="list-group-item">
-             {{#each this}}
-             {{#each this}}
-             <p>{{{html this}}}</p>
+      <div class="row right-grid">
+        <!-- Announcements Thread -->
+        <div class="news col-md-12">
+
+          <h2>Announcements and News</h3>
+          {{#each news}}
+          <h3>{{this.name}}:</h3>
+           <ul class="list-group">
+             {{#each body}}
+             <li class="list-group-item">
+               {{#each this}}
+               {{#each this}}
+               <p>{{{html this}}}</p>
+               {{/each}}
+               {{/each}}
+             </li>
              {{/each}}
-             {{/each}}
-           </li>
-           {{/each}}
-         </ul>
-       {{/each}}
+           </ul>
+         {{/each}}
+         <div class="read-more">
+           <div class="gradient"></div>
+           <div id="show-more"><h3 class="text-centered">read more</h3></div>
+           <div id="collapse"><h3 class="text-centered">collapse</h3></div>
+         </div>
+       </div>
+
+
      </div>
 
       <!-- Resources Thread -->

@@ -57,10 +57,6 @@
                   </li>
                   <li><a  href="adaptations.html">Adaptations</a>
                   </li>
-                  <li><a  href="scores.html">Scoring Program</a>
-                  </li>
-                  <!-- <li><a href="contact.html">Contact</a>
-                  </li> -->
 
               </ul>
 
@@ -82,15 +78,14 @@
     <img id="downArrow" src="images/down-arrow.png" width="140" height="140">
 
 
-    <div class="jumbotron announcements">
+    <div class="announcements">
       <div class="row">
 
         <div class="col-lg-8 col-centered">
-          <!-- <img  src='images/wordle72-1.png'> -->
-          <p>Filling out the CDIs on FACEBOOK? Email us at <a href="mailto:Webcdi-contact@stanford.edu" target="_top">Webcdi-contact@stanford.edu</a> if you have any questions or comments!</p>
-          <p>Are you an author of a CDI adaptation? Please see <a href="about.html">Announcements and News</a> for important information!</p>
 
-          <p><a class="btn btn-default" href="about.html">Announcements and News!</a></p>
+          <div id="insert"></div>
+
+          <p><a class="btn btn-default" href="about.html">Read more announcements</a></p>
 
 	      </div>
       </div>
@@ -140,7 +135,7 @@
         <div class="col-lg-3 col-sm-6" id="bubble">
           <img class="img-circle" src="images/babies/WhiteGirl.png" alt="Young girl" width="140" height="140"><br>
           <div class="title">
-            <h2><span class="link"><a href="lexicalnorms.html">Lexical Norms</a></span></h2>
+            <h2><span class="link"><a href="lexicalnorms.html">Wordbank</a></span></h2>
           </div>
           <p>Both CLEX and Wordbank compile responses from many different CDI administrations in dozens of languages, providing exciting new resources for the construction of crosslinguistic lexical norms.  Click below to learn about our latest developments!</p>
           <div class="link">
@@ -156,20 +151,15 @@
 
       <!-- FOOTER -->
       <footer>
-
         <div class="undernav">
-              <ul>
-                <li>
-                  <a id="contact" class="nav-link" href="memorial.html" role="button"><strong>Bates Memorial</strong></a>
-                </li>
-              </ul>
+
           <div id="Copywrite">
-            <p class="pull-right"><a class="nav-link" href="#">Back to top</a></p>
+            <p class="pull-right"><a href="#">Back to top</a></p>
             <p><a class="nav-link" href="copyright.html">&copy; 2015 CDI Advisory Board</a></p>
             <p><a class="nav-link" href="https://github.com/esalling23">Designed by Erica Salling</a></p>
-        </div>
-      </div>
+          </div>
 
+        </div>
       </footer>
 <!-- /.container -->
 
@@ -183,6 +173,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/core.js"></script>
+
+    <script id="newsTemplate" type="text/x-handlebars-template">​
+
+      <h3>Featured Announcement: {{mostRecentNews.name}}</h3>
+      {{#each mostRecentNews.body}}
+      {{#each this}}
+      {{#each this}}
+        {{{html this}}}
+      {{/each}}
+      {{/each}}
+      {{/each}}
+
+    </script>
+
+    <script src="js/aboutTemplate.js"></script>
+
+
+
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 

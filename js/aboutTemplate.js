@@ -1,24 +1,12 @@
 $(function() {
-  console.log("before the data")
-
+  console.log("before the data");
   // Unique Page Data
   var aboutData = {
-    //  contact: {
-    //      group: 1,
-    //      name: 'Contact',
-    //      body: [
-    //        'The CDI: Words and Gestures (Infant form) is designed for use with 8- to 18- month old children. Further information about these forms including normative data is provided in the MacArthur-Bates Communicative Development Inventories User\'s Guide and Technical Manual. These forms are scorable using the CDI Scoring program. The CDI: Words and Sentences (Toddler form) is designed for use with 16- to 30-month old children. Either form may be used with older, developmentally-delayed children.',
-    //        'Further information about these forms including normative data is provided in the MacArthur-Bates Communicative Development Inventories User\'s Guide and Technical Manual.',
-    //        'The manual as well as the forms can be ordered from Brookes: &#36;.35',
-    //        'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
-    //        'Fax 1-410-337-8539',
-    //        'Visit them online at [www.brookespublishing.com/cdi](www.brookespublishing.com/cdi)'
-    //      ]
-    // },
     news: [
       {
           name: 'June 2017',
           key: 'june_2017',
+          mostRecent: true,
           body: [
             { textGroup: [
                 "Are you an author of a MB-CDI adaptation? The Advisory Board is updating the contact information on the website and would appreciate your help! Please make sure all of your contact information is up to date. You should have also received an email with instructions on how you can provide more information on our site. Please send this and any questions to Philip Dale at dalep@unm.edu"
@@ -170,9 +158,45 @@ $(function() {
      }
   };
 
-  var aboutTemplateScript = $("#aboutTemplate").html();
-  var aboutTemplate = Handlebars.compile(aboutTemplateScript);
-  $('#aboutPage').append(aboutTemplate (aboutData));
+  var recent = _.filter(aboutData.news, function(e) {
+    return e.mostRecent;
+  });
+  console.log(recent);
 
+  aboutData.mostRecentNews = recent[0];
+
+  var template = $('script[type="text/x-handlebars-template"]');
+
+  var aboutTemplateScript = $(template).html();
+  var aboutTemplate = Handlebars.compile(aboutTemplateScript);
+  $('#insert').append(aboutTemplate (aboutData));
 
 });
+
+window.onload = function() {
+
+  $('.news').css('height', $('.left-grid').height());
+  $('.news').css('overflow', 'hidden');
+  $('.read-more').show();
+
+  $('body #show-more').on('click', function() {
+
+    $('.read-more').css('position', 'relative');
+    $('.news').css('overflow', 'auto');
+    $('.news').css('height', 'auto');
+    $('.gradient, #show-more').hide();
+    $('#collapse').show();
+
+  });
+
+  $('body #collapse').on('click', function() {
+
+    $('.read-more').css('position', 'absolute');
+    $('.news').css('overflow', 'hidden');
+    $('.news').css('height', $('.left-grid').height());
+    $('.gradient, #collapse').show();
+    $('#show-more').show();
+
+  });
+
+}

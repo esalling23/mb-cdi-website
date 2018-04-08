@@ -56,7 +56,8 @@ body, html {
 button, .btn-default, input {
   background-color: transparent;
   color: #06407F;
-  border: 3px solid #06407F; }
+  border: 3px solid #06407F;
+  margin-bottom: 15px; }
   button:not(:disabled):focus, button:not(:disabled):active, button:not(:disabled):hover, .btn-default:not(:disabled):focus, .btn-default:not(:disabled):active, .btn-default:not(:disabled):hover, input:not(:disabled):focus, input:not(:disabled):active, input:not(:disabled):hover {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -83,28 +84,55 @@ a {
 
 .left-grid {
   margin-right: 5%;
-  width: 50%;
+  width: 45%;
   float: left; }
+
+.right-grid {
+  width: 50%;
+  margin: 0px;
+  margin-top: 2%;
+  float: right; }
 
 .news {
   position: relative;
   right: 0px; }
+  .news .read-more {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 80px; }
+    .news .read-more #show-more, .news .read-more #collapse {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background: white; }
+      .news .read-more #show-more:hover, .news .read-more #show-more:focus, .news .read-more #collapse:hover, .news .read-more #collapse:focus {
+        cursor: pointer;
+        text-decoration: underline; }
+    .news .read-more #collapse {
+      display: none;
+      margin-top: 40px;
+      background: transparent; }
+  .news .gradient {
+    background: linear-gradient(transparent, white);
+    width: 100%;
+    height: 40px; }
 
 .resources .textGroup {
   margin-top: 20px; }
 
-#aboutPage .contact {
+.aboutPage .contact {
   background: #c9c6e4;
   padding: 5%; }
-#aboutPage .news {
+.aboutPage .news {
   margin-top: -30px; }
-#aboutPage .resources {
+.aboutPage .resources {
   margin-top: 10%; }
-#aboutPage .textGroup {
+.aboutPage .textGroup {
   margin-top: 5%; }
-  #aboutPage .textGroup.btnLinksGroup p {
+  .aboutPage .textGroup.btnLinksGroup p {
     margin: 20px 0px; }
-  #aboutPage .textGroup.btnLinksGroup a {
+  .aboutPage .textGroup.btnLinksGroup a {
     background-color: transparent;
     color: #06407F;
     border: 3px solid #06407F;
@@ -117,6 +145,10 @@ a {
 .scoring h3 {
   margin-top: 40px; }
 
+.adaptation#home .col-md-8 p {
+  padding-bottom: 10px; }
+.adaptation#home .btn {
+  font-size: 20px; }
 .adaptation.section {
   padding: 0px;
   width: 100%;
@@ -151,7 +183,7 @@ a {
     height: auto;
     width: 200px; }
 .form.box {
-  border: 1px solid #06407F;
+  border: 2px solid #06407F;
   display: block;
   height: 300px;
   width: 300px;
@@ -163,7 +195,9 @@ a {
   text-align: center;
   transition: all 0.3s ease-in-out; }
   .form.box:hover, .form.box:focus {
-    transform: scale(1.1); }
+    border: 2px solid #0b71e0; }
+    .form.box:hover h2, .form.box:focus h2 {
+      color: #0b71e0; }
   .form.box img {
     margin: 0 auto;
     height: 180px;
@@ -247,10 +281,12 @@ a {
 .header * {
   display: inline; }
 
-.announcements p {
-  font-size: 28px; }
-  .announcements p .btn {
-    font-size: 36px; }
+.announcements {
+  padding: 2% 0px; }
+  .announcements p {
+    padding: 20px; }
+    .announcements p .btn {
+      font-size: 20px; }
 
 .main {
   text-align: left; }
@@ -272,6 +308,7 @@ a {
 
 .background-img {
   min-height: 500px;
+  height: 100%;
   margin-right: -15px;
   margin-left: -15px;
   background-image: url("background-darker.jpg");
@@ -437,30 +474,30 @@ footer {
   list-style-type: none;
   padding: 0; }
 
-#bates {
+.memorial {
   text-align: left;
-  margin-top: 5%; }
+  padding-top: 10%;
+  margin-top: -5%;
+  margin-bottom: 10%; }
+  .memorial .well {
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 10%; }
+  .memorial p {
+    margin-top: 1%;
+    width: 100%;
+    margin: auto; }
 
 .batesImg {
   text-align: right;
   padding-right: 5%;
-  padding-top: 5%; }
+  padding-top: 1%; }
 
 .batesImg img {
   border: 2px solid #06407F;
   margin-bottom: 0;
   padding: 1%; }
-
-#bates.well {
-  width: 60%;
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 10%; }
-
-#bates p {
-  margin-top: 1%;
-  width: 100%;
-  margin: auto; }
 
 body {
   /*color: #6499B2;*/
@@ -488,35 +525,34 @@ body {
   list-style-type: none;
   padding: 0px; }
 
-#bubbles.row {
+.bubbles.row {
   text-align: center;
   font-weight: bold;
   padding-bottom: 60px; }
 
-#bubbleimg {
-  margin-top: 20%; }
+.bubbleimg {
+  margin-top: 5%; }
+  .bubbleimg:hover, .bubbleimg:focus {
+    filter: grayscale(100%); }
 
-#boardbubble.col-lg-3 {
+.boardbubble.col-lg-3 {
   text-align: center;
   padding: 10px;
-  min-height: autobubbles;
-  font-size: 16px; }
-
-#boardbubble.col-lg-3 h3 {
-  height: 50px;
-  padding-top: 5%; }
-
-#boardbubble.col-lg-3 p {
-  padding: 5%;
-  text-align: center;
-  font-size: 18px; }
-
-#boardbubble.col-lg-3 a {
-  font-size: 20px; }
-
-#boardbubble.col-lg-3 a:hover,
-#boardbubble.col-lg-3 a:focus {
-  font-size: 20px; }
+  min-height: auto;
+  font-size: 16px;
+  margin-bottom: 5%; }
+  .boardbubble.col-lg-3 .titles {
+    padding: 10px 0px; }
+  .boardbubble.col-lg-3 p {
+    text-align: center;
+    font-size: 18px; }
+  .boardbubble.col-lg-3 h3 {
+    height: 50px;
+    padding-top: 5%; }
+  .boardbubble.col-lg-3 a {
+    font-size: 20px; }
+    .boardbubble.col-lg-3 a:focus, .boardbubble.col-lg-3 a:hover {
+      font-size: 20px; }
 
 #bubble.col-lg-3 {
   text-align: center;
@@ -667,9 +703,6 @@ h3 {
   color: #B28A58;
   background-color: #06407F;
   border: 0px !important; }
-
-.announcements p {
-  padding: 10px; }
 
 .frontpage {
   margin: 0 auto;
