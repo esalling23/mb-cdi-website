@@ -167,9 +167,7 @@
   					<option class="adapt-option" value="home" selected>Available Adaptations</option>
   					{{#each forms}}
             {{#if this.labeled}}
-            <optgroup label="{{this.label}}">
-              <option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
-            </optgroup>
+            
             {{else}}
   					<option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
             {{/if}}
