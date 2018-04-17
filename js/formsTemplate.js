@@ -25,7 +25,7 @@ $(function() {
        }, {
          group: 3,
          name: 'CDI III',
-         key: 'cdi',
+         key: 'cdi_iii_form',
          body: [
            "One page short form versions of each of these instruments have also been developed. The infant form (Version Breve del Inventario del Desarrollo de Habilidades Comunicativas - Inventario I) is comprised of a 105-word vocabulary checklist with separate columns for comprehension and production, appropriate for children 8-18 months. The toddler version (Version Breve del Inventario del Desarrollo de Habilidades Comunicativas - Palabras y Enunciados) contains a 100-word productive vocabulary checklist and a question about combining words. This form is appropriate for children 16-30 months.  The short forms can serve as an alternative to the full version when rapid assessment of a child's language level is needed or when parental literacy is low",
            "They may be ordered at a cost of &#36;.35 each from:",

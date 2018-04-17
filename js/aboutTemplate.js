@@ -4,6 +4,19 @@ $(function() {
   var aboutData = {
     news: [
       {
+          name: 'April 2018',
+          key: 'april_2018',
+          mostRecent: true,
+          body: [
+            { textGroup: [
+                "Update! We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018.  Please fill out the form to let us know your interest and we will be in touch soon!",
+                "[Complete the form here!](https://goo.gl/forms/bNf1ICzrCZdDWMVT2)"
+            ] },
+            { textGroup: [
+                "Update! We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018."
+            ] }
+          ]
+      }, {
           name: 'June 2017',
           key: 'june_2017',
           mostRecent: true,
