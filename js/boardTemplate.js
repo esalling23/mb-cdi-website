@@ -47,16 +47,16 @@ $(function() {
             'Department of Communicative Disorders',
             'San Diego State University'
           ],
-          email: "dthal@mail.sdsu.edu"
+          email: "donnathal01@gmail.com"
       },
       {
         name: 'Donna Jackson-Maldonado',
         image: "images/board/DonnaJacksonMaldonado.png",
         titles: [
-          'Department of Communicative Disorders',
-          'San Diego State University'
+          "Facultad de Lenguas y Letras",
+          "University of Queretaro Mexico"
         ],
-        email: "dthal@mail.sdsu.edu"
+        email: "djackson@uaq.mx"
       },
       {
         name: 'Virginia A. Marchman',
@@ -102,6 +102,15 @@ $(function() {
           'San Diego State University'
         ],
         email: "mfriend@mail.sdsu.edu"
+      },
+	  {
+        name: 'Ann Weber',
+        image: "images/board/AnnWeber.jpg",
+        titles: [
+          'Department of Pediatrics',
+          'Stanford University School of Medicine'
+        ],
+        email: "annweber@stanford.edu"
       }
     ]
   };
