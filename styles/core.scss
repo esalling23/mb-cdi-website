@@ -153,6 +153,24 @@ a {
 	float: right;
 }
 
+// Select2
+body .select2-selection__rendered {
+    color: $theme-background !important;
+		line-height: 38px !important;
+		font-weight: bold;
+}
+body .select2-selection--single {
+    background-color: #cad6e6 !important;
+    border: 1px solid #06407e !important;
+    border-radius: 0px !important;
+		height: 40px !important;
+}
+
+body .select2-container {
+	width: 35% !important;
+	float: right;
+}
+
 .news {
 	position: relative;
 	right: 0px;
@@ -441,7 +459,7 @@ a {
 	padding: 2% 0px;
 	p {
 
-		padding: 20px;
+		padding-bottom: 20px;
 
 		.btn {
 			font-size: 20px;

@@ -24,7 +24,7 @@ $(function() {
        }, {
          group: 3,
          name: 'CDI III',
-         key: 'cdi',
+         key: 'cdi_iii_form',
          body: [
            'Philip Dale has developed a brief upward extension of the CDI approach that is suitable for assessing language skills in children between 30 and 37 months. The CDI III is a two-page questionaire that includes a 100-item vocabulary list, 12 sentence pairs for assessing grammatical complexity, and 12 yes/no questions concerning semantics, pragmatics, and comprehension. Further information about these forms including normative data is provided in the MacArthur Communicative Development Inventories User\'s Guide and Technical Manual.',
 		  'The manual as well as the forms can be ordered from Brookes Publishing.',

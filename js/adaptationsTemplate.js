@@ -2393,8 +2393,8 @@ $(function() {
              "University of Cape Town ",
              "A17 Arts Block ",
              "Tel: 021 650 2039 ",
-             "Tel: 082 514 9604 ",
-             "heather.brookes@uct.ac.za"
+             "**Tel**: 082 514 9604 ",
+             "*heather.brookes@uct.ac.za*"
            ]}
          ]
        }, {
