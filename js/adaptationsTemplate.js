@@ -18,7 +18,7 @@ $(function() {
          name: 'Adaptations Not Translations!',
          key: 'adapt_not_translate',
          labeled: true,
-         label: 'This important document will explain xyz',
+         label: 'This important document will review important information about the adaptation process.',
          pdf: 'documents/AdaptationsNotTranslations2015.pdf',
        },
        {
@@ -154,7 +154,7 @@ $(function() {
          name: 'Bengali',
          key: 'bengali',
          body: [
-           'xyz',
+           '### Contact:',
            { textGroup: [
              'Sally McGregor',
               '*sallymcgregor@yahoo.com*'
@@ -454,12 +454,12 @@ $(function() {
            ]},
            { textGroup: [
              'An earlier version, developed under the direction of Dr. Thomas Klee, is available on-line in the University of Canterbury’s Research Repository, along with some preliminary norms, and a conference presented. These can be accessed at:',
-             '[CDI forms]()',
+             'https://ir.canterbury.ac.nz/handle/10092/3525',
              'Data on validity and preliminary norms',
-             '[Handout from a conference presentation]()'
+             'http://hdl.handle.net/10092/3523'
            ]},
            { textGroup: [
-             'Contact:',
+             '### Contact:',
              'Thomas Klee',
              'Professsor, Department of Communication Disorders and Deputy Director, New Zealand Institute of Language, Brain & Behaviour',
             'University of Canterbury|Te Whare Wânanga o Waitaha',
@@ -472,7 +472,7 @@ $(function() {
             'Another early version was developed by Professor Janette Atkinson.'
           ]},
           { textGroup: [
-            'Contact:',
+            '### Contact:',
             'Professor Janette Atkinson',
             'Department of Psychology',
             'Visual Development Unit',
@@ -879,7 +879,8 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-              "Dr. Anja Gampe Department of Psychology",
+              "Dr. Anja Gampe ",
+			  "Department of Psychology",
               "University of Zurich",
               "Binzmühlestrasse 14/21",
               "8050 Zürich, Switzerland",
@@ -1176,7 +1177,7 @@ $(function() {
            ]},
            { textGroup: [
              "New in 2017!",
-             "Click here to view more information provided directly by the authors! Info2017-ItalianSignLanguage"
+             "Click here to view more information provided directly by the authors! [Info2017-ItalianSignLanguage] (documents/Info2017-ItalianSignLanguage.pdf)"
            ]}
          ]
        }, {
@@ -1471,8 +1472,8 @@ $(function() {
           ]},
           { textGroup: [
             "Publications",
-            "Liu, H. – M. & Tsao, F. – M. (2010). The Standardization and Application of Mandarin-Chinese Communicative Developmental Inventory for Infants and Toddlers. Formosa Journal of Mental Health, 23 (4), xx-xx. (in Chinese)",
-            "Liu, H. – M. & Tsao, F. – M. (2010). The manual of Mandarin-Chinese Communicative Developmental Inventory for Infants and Toddlers. Taipei, Taiwan: The Profile of Psychological Publishing Co., Ltd.",
+            "Liu, H.– M. & Tsao, F.– M. (2010). The Standardization and Application of Mandarin-Chinese Communicative Developmental Inventory for Infants and Toddlers. Formosa Journal of Mental Health, 23 (4), xx-xx. (in Chinese)",
+            "Liu, H.– M. & Tsao, F.– M. (2010). The manual of Mandarin-Chinese Communicative Developmental Inventory for Infants and Toddlers. Taipei, Taiwan: The Profile of Psychological Publishing Co., Ltd.",
             "[Publisher Website](http://www.psy.com.tw/com.php)"
           ]}
          ]
@@ -1637,7 +1638,7 @@ $(function() {
              "Rua Joao Mendes da Costa Filho 306/302-D ",
              "Jardim de Alah ",
              "41750-190 Salvador, BA ",
-             "Brasil ",
+             "Brazil ",
              "Tel: (0115571) 343-5246 ",
              "ereist@ufba.br"
            ]},
@@ -1652,11 +1653,15 @@ $(function() {
            '### Contact:',
            { textGroup:[
              "Fernanda Leopoldina Viana ",
-             "leopoldinaviana@gmail.com",
+             "*leopoldinaviana@gmail.com*",
+			 ]},
+           { textGroup: [ 
              "Irene Maria Dias Cadime ",
-             "irenecadime@gmail.com",
+             "*irenecadime@gmail.com*",
+			  ]},
+           { textGroup: [
              "Rosa Lima ",
-             "rolima307@gmail.com"
+             "*rolima307@gmail.com*"
            ]}
          ]
        }, {
@@ -1701,16 +1706,7 @@ $(function() {
               "Click here to view more information provided directly by the authors! [Info2017-Portuguese(Mozambique)](documents/Info2017-Portuguese(Mozambique).pdf)"
            ]}
          ]
-       }, {
-         name: 'Panjabi',
-         key: 'panjabi',
-         body: [
-           '### Contact:',
-           { textGroup:[
-             'Text Here'
-           ]}
-         ]
-       }, {
+       },  {
          name: 'Ronga',
          key: 'ronga',
          body: [
@@ -1743,7 +1739,8 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Marina Eliseeva, Ph.D., Department Head ",
+             "Marina Eliseeva, Ph.D.",
+			 "Department Head ",
              "Department of Children’s Language and Literary Education ",
              "Herzen State Pedagogical University of Russia (St. Petersburg)",
              "melyseeva@yandex.ru"
@@ -1826,7 +1823,8 @@ $(function() {
            { textGroup: [
              "Maja Savić ",
              "Faculty of Philology ",
-             "Laboratory for Experimental Psychology, Faculty of Philosophy ",
+             "Laboratory for Experimental Psychology",
+			 "Faculty of Philosophy ",
              "University of Belgrade ",
              "Serbia",
              "smaya@eunet.rs"
@@ -1849,7 +1847,7 @@ $(function() {
          key: 'setswana_tswana',
          body: [
            'There are two, collaborating projects developing adaptations of the CDIs for Setswana, one based in Botswana and one in South Africa. Contact information for each of them is below.',
-           "## South Africa Project Contact:",
+           "### South Africa Project Contact:",
            { textGroup:[
              "Heather Brookes, Ph.D. ",
              "Chief Research Officer ",
@@ -1860,7 +1858,7 @@ $(function() {
              "Tel: 082 514 9604 ",
              "heather.brookes@uct.ac.za"
            ]},
-           '## Botswana Project Contact:',
+           '### Botswana Project Contact:',
            { textGroup: [
              "Dr. Naledi N. Kgolo ",
              "Department of English ",
@@ -1889,6 +1887,22 @@ $(function() {
            { textGroup:[
              "Joe Piper ",
              "joe.piper@gmail.com "
+           ]}
+         ]
+       }, {
+         name: 'Sindhi',
+         key: 'sindhi',
+         body: [
+           '### Contact:',
+           { textGroup:[
+             "Muneera A. Rasheed ",
+             "Senior Instructor ",
+			 "Department of Paediatrics and Child Health",
+			 "Stadium Road",
+			 "Aga Khan University Hospital",
+			 "Karachi, Pakistan",
+			 "Telephone: (+92 21) 3486 4334 | Ext. 4334",
+			 "*muneera.rasheed@aku.edu*"
            ]}
          ]
        }, {
@@ -1995,8 +2009,14 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Chamarrito Farkas ",
-             "chfarkas@uc.cl "
+             "Mónica Andrea Velásquez Zabala ",
+			 "Telephone in Chile: +56 (45) 2325747",
+             "monica.velasquez@ufrontera.cl"
+           ]},
+		   { textGroup:[
+             "Luis Leonardo Cepeda Guíñez ",
+			 "Telephone in Chile: +56 (9) 68791871",
+             "l.cepeda01@gmail.com // l.cepeda01@ufromail.cl"
            ]}
          ]
        }, {
@@ -2013,7 +2033,7 @@ $(function() {
          name: 'Spanish (Cuban)',
          key: 'spanish_cuban',
          body: [
-           '## (NOTE: This is an adaptation of the first Mexican Spanish version. The authors also created a short form.)',
+           '### (NOTE: This is an adaptation of the first Mexican Spanish version. The authors also created a short form.)',
            '### Contact:',
            { textGroup:[
              "Barbara Pearson ",
@@ -2026,6 +2046,9 @@ $(function() {
              "Tel: 413-545-5023 ",
              "Fax: 413-545-0803",
              "bpearson@comdis.umass.edu",
+			  ]},
+			  { textGroup: [
+             "Publications",
              "Pearson, B. Z., (1998). Assessing lexical development in bilingual babies and toddlers. International Journal of Bilingualism, 2, 347-372 (Special issue on bilingual acquisition, A. DeHouwer, Ed.)",
              "Crowson, M., Lee, J., Neal, A.R., & Stella, J. (1997). Correlates of nonverbal communication with language development and parental report in young children with autism. Poster presented at the Society for Research in Child Development, Washington, D.C., April 2-6, 1997",
              "Fernández, M.C. & Umbel, V.M. (1991) Inventario del Desarrollo de las Habilidades Comunicativas: Adaptación Cubana. Miami, Florida: University of Miami, Mailman Center for Child Development.",
@@ -2062,7 +2085,7 @@ $(function() {
          ]
        }, {
          name: 'Spanish (Mexican)',
-         key: 'spanish_european',
+         key: 'spanish_mexican',
          body: [
            '### Contact:',
            { textGroup:[
@@ -2077,14 +2100,14 @@ $(function() {
              "![mexican spanish worksheet](images/forms/MexicanSpanish_WS.jpg)"
            ]},
            { textGroup: [
-             "## Spanish Manual (English):",
+             "### Spanish Manual (English):",
              "Call toll-free 1-800-638-3775 (8:00 a.m. to 5:00 p.m. ET, Monday through Friday) ",
              "Fax: 1-410-337-8539",
              "[Website](http://www.brookespublishing.com/cdi)",
              "custserv@brookespublishing.com"
            ]},
            { textGroup: [
-             "## Spanish Manual (Spanish):",
+             "### Spanish Manual (Spanish):",
              "Manual Moderno",
              "Av. Sonora 206 ",
              "México, D.F. 06100 ",
@@ -2098,11 +2121,11 @@ $(function() {
              "![spanish manual](images/forms/SpanishManual.jpg)"
            ]},
            { textGroup: [
-             "## Manual",
+             "### Manual",
              "Jackson-Maldonado, D., Thal, D., Marchman, V., Newton, T., Fenson, L, & Conboy, B. (2003). MacArthur Inventarios del Desarrollo de Habilidades Comunicativas. User´s Guide and Technical Manual. Brookes, Baltimore."
            ]},
            { textGroup: [
-             "## Publications",
+             "### Publications",
              "Jackson-Maldonado, D. (2004). El retraso del lenguaje en niños mexicanos: vocabulario y gestos. Anuario de Psicología, 35, 2 p. 257-278.",
              "Verbal Morphology and Vocabulary in Monolinguals and Emergent Bilinguals. Goldstein, B. (Ed.), Bilingual Language Development and Disorders in Spanish-English Speakers. Brookes, Baltimore. (2004).",
              "Marchman, V.A. & Martínez-Sussman, C. (2002). Concurrent validity of caregiver-/parent report measures of language for children who are learning both English and Spanish. Journal of Speech, Language and Hearing Research, 45 (5), 993-997",
@@ -2110,7 +2133,6 @@ $(function() {
              "Thal, D., Jackson-Maldonado, D , Acosta, D. (2000). “Validity of a Parent-Report Measure of Vocabulary and Grammar for Spanish-Speaking Toddlers”. Journal of Speech, Language and Hearing Research. 43, 5, P. 1087-1100.",
              "Jackson-Maldonado, D. (1999). 'Early Language Assessment for Spanish-speaking Children: border realities'. En T. Fletcher y C. Bos, (Eds.) Social Integration of Children with Disabilities and Their Families: Blending U.S. and Mexican Perspectives. Bilingual Press, Arizona.",
              "Jackson-Maldonado, D., Maldonado, R. y Thal, D. (1998). 'Reflexive and Middle Markers in Early Child Language Acquisition' First Language, 18, 403-429.",
-             "Jackson-Maldonado, D., Maldonado, R., & Thal, D. (1998). Reflexive and middle markers in early child language acquisition: Evidence from Mexican Spanish. First Language, 54, 403-429.",
              "Soto Martínez, B. y Jackson-Maldonado, D. (1998). 'Artículo indefinido 'un' y definido 'el': una aproximación en niños de 28 meses' en Memorias del IV Encuentro de Lingüística en el Noroeste. Universidad de Sonora, Sonora, México.",
              "Jackson-Maldonado, D., Thal, D., Marchman, V., Bates. E., & Guitierrez-Clellen, V. (1993). Early lexical development of Spanish-speaking infants and toddlers. Journal of Child Language, 20, 523-549."
            ]},
@@ -2239,7 +2261,7 @@ $(function() {
          ]
        }, {
          name: 'Tswana',
-         key: '',
+         key: 'tswana',
          body: [
            '### Contact:',
            { textGroup:[
@@ -2248,7 +2270,7 @@ $(function() {
          ]
        }, {
          name: 'Turkish',
-         key: '',
+         key: 'turkish',
          body: [
            '### Contact:',
            { textGroup:[
@@ -2351,7 +2373,7 @@ $(function() {
              "annweber@stanford.edu"
            ]},
            { textGroup:[
-             "Virginia Marchman ",
+             "Virginia A. Marchman ",
              "Department of Psychology ",
              "450 Serra Mall ",
              "Stanford University ",

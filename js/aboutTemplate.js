@@ -3,31 +3,22 @@ $(function() {
   // Unique Page Data
   var aboutData = {
     news: [
-      {
+       {
           name: 'April 2018',
           key: 'april_2018',
           mostRecent: true,
           body: [
             { textGroup: [
-                "Update! We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018.  Please fill out the form to let us know your interest and we will be in touch soon!",
+                "We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018.  Please fill out the form to let us know your interest and we will be in touch soon!",
                 "[Complete the form here!](https://goo.gl/forms/bNf1ICzrCZdDWMVT2)"
             ] },
-            { textGroup: [
-                "Update! We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018."
+			 { textGroup: [
+               "The MacArthur-Bates CDI Advisory Board is also pleased to announce that Dr. Ann Weber (Stanford University School of Medicine) has joined the board!  Welcome, Ann!"
             ] }
           ]
       }, {
           name: 'June 2017',
           key: 'june_2017',
-          mostRecent: true,
-          body: [
-            { textGroup: [
-                "Are you an author of a MB-CDI adaptation? The Advisory Board is updating the contact information on the website and would appreciate your help! Please make sure all of your contact information is up to date. You should have also received an email with instructions on how you can provide more information on our site. Please send this and any questions to Philip Dale at dalep@unm.edu"
-            ] }
-          ]
-      }, {
-          name: 'May 2017',
-          key: 'may_2017',
           body: [
             { textGroup: [
                 "Are you an author of a MB-CDI adaptation? The Advisory Board is updating the contact information on the website and would appreciate your help! Please make sure all of your contact information is up to date. You should have also received an email with instructions on how you can provide more information on our site. Please send this and any questions to Philip Dale at dalep@unm.edu"
@@ -51,8 +42,8 @@ $(function() {
             ] }
          ]
       }, {
-          name: 'September 2017',
-          key: 'sept_2017',
+          name: 'September 2016',
+          key: 'sept_2016',
           body: [
             {
               textGroup: [
@@ -68,7 +59,7 @@ $(function() {
           body: [
             {
               textGroup: [
-                "The Advisory Board is saddened to announce the death of our longtime colleague and friend, J. Steven Reznick. Steve was a gifted and generous teacher, researcher, mentor, collaborator and friend. Learn more about Steve's life [here](http://www.unc.edu/campus-updates/a-legacy-of-courage-and-inspiration/)."
+                "The Advisory Board is saddened to announce the death of our longtime colleague and friend, J. Steven Reznick. Steve was a gifted and generous teacher, researcher, mentor, collaborator and friend. Learn more about Steve's life [here](https://uncnewsarchive.unc.edu/campus-updates/a-legacy-of-courage-and-inspiration/)."
             ] }
          ]
       }, {
@@ -149,16 +140,13 @@ $(function() {
           },
           { textGroup: [
             '## External Links',
-            'Below is a collection of links to sites that are relevant to the child language and the CDI.'
+            'Below is a collection of links to sites that are relevant to the study of child language and the CDI.'
           ]},
           { textGroup: [
             '### Professional Organizations, Conferences, and General Information',
-            '[International Association for the Study of Child Language (IASCL)](http://www.iascl.net)',
+			'[International Association for the Study of Child Language (IASCL)](http://www.iascl.net)',
             '[The Child Language Data Exchange System](http://childes.psy.cmu.edu/)',
-            '[Symposium on Research in Child Language Disorders (SRCLD)](http://www.srcld.org)'
-          ]},
-          { textGroup: [
-            '### Professional Organizations, Conferences, and General Information',
+            '[Symposium on Research in Child Language Disorders (SRCLD)](http://www.srcld.org)',
             '[Wordbank, an open data repository of MB-CDI forms](http://wordbank.stanford.edu), Stanford University',
             '[Language Learning Laboratory](http://langlearninglab.stanford.edu), Stanford University',
             '[Language and Cognition Laboratory](http://langcog.stanford.edu), Stanford University',
