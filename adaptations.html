@@ -2,8 +2,8 @@
 
 <head>
 
-  <title>Adaptations in Other Languages -- MacArthur-Bates Communicative Development Inventories</title>
-
+<title>Adaptations in Other Languages -- MacArthur-Bates Communicative Development Inventories</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 
   <!-- Bootstrap core CSS -->
@@ -116,7 +116,7 @@
           </li>
           <li><a href="board.html">Advisory Board</a>
           </li>
-          <li><a href="forms.html">CDI Forms</a>
+          <li><a href="forms.html">English and Spanish Forms</a>
           </li>
           <li><a href="adaptations.html">Adaptations</a>
           </li>
@@ -162,18 +162,17 @@
         <script src="js/core.js"></script>
 
     <script id="adaptationsTemplate" type="text/x-handlebars-template">​
-
       <div class="dropdown">
-        <select id="adaptationSelect" class="input">
-            <option class="adapt-option" value="home" selected>Available Adaptations</option>
-            {{#each forms}}
+        <select id="adaptationSelect" class="input form-control">
+  					<option class="adapt-option" value="home" selected>Available Adaptations</option>
+  					{{#each forms}}
             {{#if this.labeled}}
-
+           
             {{else}}
-            <option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
+  					<option class="adapt-option" id="{{this.key}}-option" value="{{this.key}}">{{this.name}}</option>
             {{/if}}
             {{/each}}
-        </select>
+  			</select>
       </div>
 
       <div id="home" class="adaptation section row" style="display:block">
@@ -189,9 +188,9 @@
           <h3 style="margin-bottom: 30px;">Important Documents:</h3>
           <button class="btn btn-default">
             <a href="documents/AdaptationsInformation2015.pdf">Adaptations Guide</a></button>
-
-          <button class="btn btn-default">
-            <a href="documents/AdaptationsNotTranslations2015.pdf">Adaptations Not Translations</a></button>
+		  <button class="btn btn-default">
+            <a href="documents/AdaptationsNotTranslations2015.pdf">Adaptations, Not Translations!</a></button>
+          
 
         </div>
 
