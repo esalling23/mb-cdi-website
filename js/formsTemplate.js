@@ -43,6 +43,8 @@ $(function() {
 			"Larry Fenson, Department of Psychology, 5500 Campanile Drive, San Diego State University, San Diego, Ca 92182-4910",
 			"**Phone: (619) 594-6614**",
 			"**Email: lfenson@gmail.com**",
+			"An article describing the norming of the English short forms is available [here] (documents/Fensonetal2000.pdf)!",
+			"Complete Short Form Norming Tables (from Fenson et al., 2000) are available for download [here] (documents/EnglishShortForms_NormingTables.pdf)!",
 			 '### Now Available!',
 			 'Announcing new downloadable fillable pdf versions of the English-language Short Forms! These can be downloaded and emailed to parents to complete on their own computers or tablets. Please advise parents that they will need the latest version of Adobe Reader (Version X or higher) to save the completed forms and email them back to you. To export the data into csv format for scoring, you will need to purchase Adobe Acrobat, which is available for academic discount through most institutions. There is a $10 license fee per form, plus 30 cents per anticipated number of administrations. To order, contact Larry Fenson.'
         ],
