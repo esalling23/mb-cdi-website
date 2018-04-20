@@ -44,7 +44,7 @@ $(function() {
           name: 'Donna Thal',
           image: "images/board/DonnaThal.png",
           titles: [
-            'Department of Communicative Disorders',
+            'Department of Speech and Hearing Sciences',
             'San Diego State University'
           ],
           email: "donnathal01@gmail.com"
