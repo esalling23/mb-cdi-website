@@ -4,9 +4,18 @@ $(function() {
   var aboutData = {
     news: [
        {
+          name: 'May 2018',
+          key: 'may_2018',
+          mostRecent: true,
+          body: [
+            { textGroup: [
+                "Did you know that a CDI-based measure can be used to gather data about vocabulary input, specifically the relative frequency of use of individual lexical items, for young children?  [This recently published paper] (documents/Bleses,Vach,Dale2018JChildLang.pdf) provides information about the development of the measure and its validity for Danish.",
+            ] },
+          ]
+      },
+	   {
           name: 'April 2018',
           key: 'april_2018',
-          mostRecent: true,
           body: [
             { textGroup: [
                 "We need you! The Advisory Board is calling for researchers to join our American English Long Form (W&G and W&S) renorming effort. You will have access to our newly-developed web-based system for use now through the end of 2018.  Please fill out the form to let us know your interest and we will be in touch soon!",
