@@ -136,6 +136,8 @@ $(function() {
         body: [
           { textGroup: [
             '## Administration Resources',
+			'[New! Instructions for Parents with Pictures - Words & Gestures!](documents/WG_instructions.pdf)',
+			'[New! Instructions for Parents with Pictures - Words & Sentences!](documents/WS_instructions.pdf)',
             '[Instructions for Parents](documents/ParentInstructions.docx)',
             '[Basic Information Form](documents/BACKGROUNDInfoForm_Fillable.pdf)'
           ]},
