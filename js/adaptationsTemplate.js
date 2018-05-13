@@ -2328,15 +2328,15 @@ $(function() {
            '### Contact:',
            { textGroup:[
              "Hein Pham",
-             "Institute of Linguistics"
-			 "Vietnam Academy of Social Sciences"
-			 "9 Kim Ma Thuong"
-			 "Cong Vi, Ba Dinh"
-			 "Ha Noi, Viet Nam"
-			 "Tel: (84) 973169976"
-			 "Fax: (8243) 767-4572"
-			 "phamheiniol@gmail.com"
-			 "hpham@vienngonnguhoc.gov.vn"
+             "Institute of Linguistics",
+			 "Vietnam Academy of Social Sciences",
+			 "9 Kim Ma Thuong",
+			 "Cong Vi, Ba Dinh",
+			 "Ha Noi, Viet Nam",
+			 "Tel: (84) 973169976",
+			 "Fax: (8243) 767-4572",
+			 "phamheiniol@gmail.com",
+			 "hpham@vienngonnguhoc.gov.vn",
            ]},
          ]
        }, {
