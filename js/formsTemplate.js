@@ -17,7 +17,7 @@ $(function() {
            'The manual as well as the forms can be ordered from Brookes Publishing.',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
-           'Visit them online at [www.brookespublishing.com/cdi](www.brookespublishing.com/cdi)',
+           'Visit them online at [www.brookespublishing.com/cdi](http://www.brookespublishing.com/cdi)',
            'See references for the English Long Forms [here](referencesEL.html)'
          ],
          image: 'images/forms/EnglishWG.jpg'
@@ -30,7 +30,7 @@ $(function() {
 		  'The manual as well as the forms can be ordered from Brookes Publishing.',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
-           'Visit them online at [www.brookespublishing.com/cdi](www.brookespublishing.com/cdi)'
+           'Visit them online at [www.brookespublishing.com/cdi](http://www.brookespublishing.com/cdi)'
          ],
          image: 'images/forms/Eng_CDI_III.jpg'
        }, {
