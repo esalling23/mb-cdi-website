@@ -17,7 +17,7 @@ $(function() {
            'The manual as well as the forms can be ordered from Brookes Publishing.',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
-           'Visit them online at [www.brookespublishing.com/cdi](http://www.brookespublishing.com/cdi)',
+           'Visit them online [here] (http://www.brookespublishing.com/cdi)',
            'See references for the English Long Forms [here](referencesEL.html)'
          ],
          image: 'images/forms/EnglishWG.jpg'
@@ -29,8 +29,8 @@ $(function() {
            'Philip Dale has developed a brief upward extension of the CDI approach that is suitable for assessing language skills in children between 30 and 37 months. The CDI III is a two-page questionaire that includes a 100-item vocabulary list, 12 sentence pairs for assessing grammatical complexity, and 12 yes/no questions concerning semantics, pragmatics, and comprehension. Further information about these forms including normative data is provided in the MacArthur Communicative Development Inventories User\'s Guide and Technical Manual.',
 		  'The manual as well as the forms can be ordered from Brookes Publishing.',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
-           'Fax 1-410-337-8539',
-           'Visit them online at [www.brookespublishing.com/cdi](http://www.brookespublishing.com/cdi)'
+           'Visit them online [here] (http://www.brookespublishing.com/cdi)',
+		   'Fax 1-410-337-8539'  
          ],
          image: 'images/forms/Eng_CDI_III.jpg'
        }, {
@@ -59,7 +59,7 @@ $(function() {
            '**To order the manual or forms:**',
            'Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)',
            'Fax 1-410-337-8539',
-           'Visit them [online](http://www.brookespublishing.com/cdi)',
+           'Visit them online [here](http://www.brookespublishing.com/cdi)',
            'See references for the Spanish Long Forms [here](referencesSL.html)'
          ],
          image: 'images/forms/SpanishWS.jpg'
