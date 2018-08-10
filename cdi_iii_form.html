@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>CDI Forms -- MacArthur-Bates Communicative Development Inventories</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -97,7 +97,7 @@
        {{#ifeq this.key "cdi_iii_form"}}
           <div id="{{this.key}}" class="form section">
             <h2>{{{this.name}}}</h2>
-            {{#each this.body}}<p>{{{this}}}</p>{{/each}}
+            {{#each this.body}}<p>{{{html this}}}</p>{{/each}}
             {{#if this.image}}<img src="{{this.image}}">{{/if}}
           </div>
        {{/ifeq}}
