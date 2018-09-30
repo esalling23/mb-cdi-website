@@ -281,7 +281,7 @@ $(function() {
            { textGroup: [
              '![chinese communicative development inventories guide and manual](images/forms/ChineseMC_Manual.jpg)',
              '### Manual',
-             'Tardiff, T. and Fletcher, P. Chinese Communicative Development Inventories: User\'s Guide and Manual (2008), Peking University Medical Press, Beijing, China.',
+             'Tardif, T. and Fletcher, P. Chinese Communicative Development Inventories: User\'s Guide and Manual (2008), Peking University Medical Press, Beijing, China.',
              '[www.pumpress.com.cn](www.pumpress.com.cn)'
            ]},
            { textGroup: [
@@ -342,16 +342,36 @@ $(function() {
            '### Contact:',
            { textGroup:[
              'Melita Kovacevic',
+              'Dept. of Speech and Language Pathology',
+			  'Faculty of Education and Rehabilitation Sciences',
               'University of Zagreb',
-              'Dept. of Logopedics',
-              'Kuslanova 59a',
-              '10000 Zagreb, Croatia',
-              'Tel: (385)-1-2338-022',
+			  '10000 Zagreb, Croatia',
               '*melita.kovacevic@unizg.hr*'
+           ]},
+		   { textGroup:[
+             'Jelena Kuvac Kraljevic',
+              'Dept. of Speech and Language Pathology',
+			  'Faculty of Education and Rehabilitation Sciences',
+              'University of Zagreb',
+			  '10000 Zagreb, Croatia',
+              '*jkuvac@erf.hr*'
+           ]},
+		   { textGroup:[
+             'In addition to the original forms, both short forms of the Croatian Communication Development Inventories are currently in the process of development. All four scales are available from Jelena Kuvac Kraljevic upon request.'
+           ]},
+		   { textGroup:[
+		    '![forms](images/forms/croatianforms.png)'
+			]},
+		   { textGroup: [
+             '### New in 2018!',
+             'Click here to view more information provided directly by the authors! [Info2018-Croatian](documents/Info2018_Croatian.pdf)'
            ]},
            { textGroup:[
              '### Papers and Presentations:',
-             'Kovacevic, M., Babic, Z., & Brozovic, B. (1996). A Croatian language parent report study: Lexical and grammatical development. Paper presented at the VIIth International Congress for the Study of Child Language, July 1996, Istanbul, Turkey.'
+             'Kuvac Kraljevic, J., Cepanec, M., Simlesa, S. (2014). Gestural development and its relation to a child`s early vocabulary. Infant Behavior & Development, 37(2), 192-202.',
+			 'Eriksson, M., Marschik, P. B., Tulviste, T., Almgren, M., Pereira, M. P., Wehberg, S., Marjanovic-Umek, L., Gayraud, F., Kovacevic, M., Gallego, C. (2012). Differences between girls and boys in emerging language skill: Evidence from 10 language communities. British Journal of Developmental Psychology, 30(2), 326–343.',
+			 'Kovacevic, M., Kuvac Kraljevic, J., Cepanec, M. (2007). Sex differences in lexical and grammatical development in Crotian. In: Eriksson, M. (ed). Proceedings from the First European Network Meeting on the Communicative Development Inventories. Gävle: Gävle University Press, 5-15.',
+			 'Kovacevic, M., Jelaska, Z., Brozovic, B. (1996). Comparing Lexical and Grammatical Development in Morphologically Different Languages. In: Aksu Koç, A., Erguvanli-Taylan, E., Sumru Őzsoy, A., Küntay, A. (eds). Perspectives on Language Acquisition. Selected papers from the VIIth International Congress for the Study of Child Language. Istanbul: Bogazici University Printhouse, 368 - 383.'
            ]}
          ]
        }, {
