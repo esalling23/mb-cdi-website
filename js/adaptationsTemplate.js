@@ -2347,7 +2347,7 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Hein Pham",
+             "Hien Pham",
              "Institute of Linguistics",
 			 "Vietnam Academy of Social Sciences",
 			 "9 Kim Ma Thuong",
@@ -2355,7 +2355,7 @@ $(function() {
 			 "Ha Noi, Viet Nam",
 			 "Tel: (84) 973169976",
 			 "Fax: (8243) 767-4572",
-			 "phamheiniol@gmail.com",
+			 "phamhieniol@gmail.com",
 			 "hpham@vienngonnguhoc.gov.vn",
            ]},
          ]
