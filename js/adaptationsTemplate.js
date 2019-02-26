@@ -88,17 +88,6 @@ $(function() {
            ]}
          ]
        }, {
-         name: 'Arabic (Saudi)',
-         key: 'arabic_saudi',
-         body: [
-             '### Contact:',
-             '**Jeddah Institute for Speech and Hearing (JISH)**',
-             'P.O. Box 3080, Jeddah, 21471',
-             'Saudi Arabia',
-             'To order: [click here](http://www.jish.org/JISHOnlineStore/Productdetail/tabid/255/ProductID/104/language/en-US/Default.aspx)',
-             'Tel: 966-2-667-5311',
-         ]
-       }, {
          name: 'Arabic (Kuwaiti)',
          key: 'arabic_kuwaiti',
          body: [
@@ -113,6 +102,59 @@ $(function() {
            ]}
          ]
        }, {
+         name: 'Arabic (Multiple)',
+         key: 'arabic_multi',
+         body: [
+           '### Contact:',
+           { textGroup: [
+             'Caroline Floccia',
+              '*caroline.floccia@plymouth.ac.uk*'
+           ]},
+           { textGroup: [
+             'Alshaimaa Gaber Salah Abdel Wahab',
+              '*alshaimaa.gabersalahabdelwahab@plymouth.ac.uk*'
+           ]},
+           { textGroup: [
+             '### New in 2017!',
+              'Click [here](documents/Info2017-Arabic(multiple).pdf) to view more information provided directly by the authors!',
+			  "Note: This project is now developing an Arabic adaptation of the CDI-III."
+           ]}
+         ]
+       }, {
+         name: 'Arabic (Palestinian)',
+         key: 'arabic_palestinian',
+         body: [
+           '### Contact:',
+           { textGroup: [
+             'Lina Hashoul Essa',
+              '*lina.hashoul.essa@gmail.com*'
+           ]},
+           { textGroup: [
+             'Sharon Armon-Lotem',
+             '*sharon.armon-lotem@biu.ac.il*',
+			"The Department of English, Linguistics",
+			"The Gonda Multidisciplinary Brain Research Center (Fellow)",
+			"Room 415, Brain Science Building",
+			"Bar-Ilan University",
+			"Ramat-Gan 52900",
+			"Israel",
+			"Tel: ++972 3 531-7159"
+           ]},
+         ]
+       }, 	{
+         name: 'Arabic (Saudi)',
+         key: 'arabic_saudi',
+         body: [
+             '### Contact:',
+			{ textGroup: [
+             "**Jeddah Institute for Speech and Hearing (JISH)**",
+             "P.O. Box 3080, Jeddah, 21471",
+             "Saudi Arabia",
+             "To order: [click here](http://www.jish.org/JISHOnlineStore/Productdetail/tabid/255/ProductID/104/language/en-US/Default.aspx)",
+             "Tel: 966-2-667-5311"
+			]},
+         ]
+       },  {
          name: 'Arabic (Tunisian)',
          key: 'arabic_tunisian',
          body: [
@@ -132,25 +174,7 @@ $(function() {
            ]},
            '*soumayabourgou1@gmail.com*'
          ]
-       }, {
-         name: 'Arabic (Multiple)',
-         key: 'arabic_multi',
-         body: [
-           '### Contact:',
-           { textGroup: [
-             'Caroline Floccia',
-              'caroline.floccia@plymouth.ac.uk'
-           ]},
-           { textGroup: [
-             'Alshaimaa Gaber Salah Abdel Wahab',
-              'alshaimaa.gabersalahabdelwahab@plymouth.ac.uk'
-           ]},
-           { textGroup: [
-             '### New in 2017!',
-              'Click [here](documents/Info2017-Arabic(multiple).pdf) to view more information provided directly by the authors!'
-           ]}
-         ]
-       },  {
+       },   {
          name: 'Bengali',
          key: 'bengali',
          body: [
@@ -1051,6 +1075,33 @@ $(function() {
               "**NOTE:** Two earlier papers used a Hebrew adaptation of Camaioni et al.'s modified version of the CDI, which is an observational tool for parents rather than a checklist."
            ]}
          ]
+       }, 
+	   
+	   {
+         name: 'Hebrew (Multicultural)',
+         key: 'hebrew_multicultural',
+         body: [
+           '### Contact:',
+           { textGroup:[
+             "Prof. Sharon Armon-Lotem",
+              "Department of English Literature and Linguistics",
+			  "Bar Ilan University",
+			  "Ramat Gan",
+			  "Israel  5290000",
+			  "*sharon.armon-lotem@biu.ac.il*"
+           ]},
+           { textGroup: [
+             "Odelya Ohana",
+			 "Department of English Literature and Linguistics",
+			  "Bar Ilan University",
+			  "Ramat Gan",
+			  "Israel  5290000",
+             "*Odelya20@gmail.com*"
+           ]},
+		   { textGroup: [
+             "From the authors:  Half of the children in Israel do not speak (only) Hebrew at home.  For these children the Hebrew CDI (WS) is unable to capture their true linguistic knowledge, but only their knowledge in Hebrew (the societal language). While in the ideal world a bilingual child should be assessed in both languages with the relevant tools, reality (outside the research lab) is far from it. Using two CDI forms, which is best practice, in the lab taught us about the cultural gap between them along with the value of comprehension alongside production in estimating bilingual lexical development. We further learnt that for these bilingual children, we really want to measure the conceptual vocabulary. How many concepts they have in their lexicon (across the two or more languages they use). This is what we aim to capture by the multicultural version of the HCDI. The multicultural version of the HCDI was designed following parents surveys in four different communities that showed which additional concepts parents deemed to be necessary in order to capture the knowledge of their children in the home language. It is not necessarily loan words but other concepts that are culturally adequate. While adding these items, we intend to remove items that were not used by any of the children in our various pilot studies and were deemed to be outdated. The outcome will be a multicultural rather than a multilingual version, as parents will fill it in Hebrew. They are requested to indicate whether the child knows the word in the home language, knows and uses, knows the word in the societal language, knows and uses. A pilot for English-Hebrew bilinguals showed that the conceptual vocabulary identified by the multicultural version was similar to what we got by using the two language specific versions. "
+           ]}
+         ]
        }, {
          name: 'Hindi',
          key: 'hindi',
@@ -1198,6 +1249,34 @@ $(function() {
            { textGroup: [
              "New in 2017!",
              "Click here to view more information provided directly by the authors! [Info2017-ItalianSignLanguage] (documents/Info2017-ItalianSignLanguage.pdf)"
+           ]}
+         ]
+       }, {
+         name: 'Jamaican Creole',
+         key: 'jamaican_creole',
+         body: [
+           '### Contact:',
+           { textGroup: [
+			"Dr. Elizabeth Kay-Raining Bird",
+			"School of Communication Sciences and Disorders",
+			"Sir Charles Tupper Medical Building",
+			"5850 College Street",
+			"2nd Floor, Room 2C01",
+			"PO Box 15000",
+			"Halifax, Nova Scotia, Canada B3H 4R2",
+			"1(902) 494-7052",
+			"email: Rainingbird@dal.ca "
+           ]},
+           { textGroup: [
+			"Ashley Tucker-McIntosh",
+			"School of Communication Sciences and Disorders",
+			"Sir Charles Tupper Medical Building",
+			"5850 College Street",
+			"2nd Floor, Room 2C01",
+			"PO Box 15000",
+			"Halifax, Nova Scotia, Canada B3H 4R2",
+			"1(902) 494-7052",
+			"email: atmcintosh@dal.ca "
            ]}
          ]
        }, {
@@ -2168,6 +2247,21 @@ $(function() {
            ]}
          ]
        }, {
+     name: 'Spanish (Peruvian)',
+	  key: 'spanish_peruvian',
+	  body: [
+           '### Contact:',
+     { textGroup: [
+       "María Blume",
+		"Department of Humanities, Linguistics and Literature section",
+		"Office 216",
+		"Pontificia Univeridad Católica del Perú",
+		"Avenida Universitaria 1801, San Miguel, Lima 32, Perú",
+		"mblume@pucp.pe",
+		"(011-511) 626-2000, annex 4412"
+       ]}
+     ]
+   }, {
          name: 'Spanish Sign Language',
          key: 'spanish_sl',
          body: [
