@@ -1644,13 +1644,26 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Kristine Bentzen, PhD ",
+             "Kristine Bentzen, Ph.D. ",
              "Department of Language and Linguistics/Center for Advanced Study in Theoretical Linguistics (CASTL) ",
              "Faculty of Humanities, Social Sciences and Education ",
              "University of Tromsø ",
              "N-9037 Tromsø ",
              "Norway ",
              "Phone: +47 77646665"
+           ]}
+         ]
+       }, {
+         name: 'North Australian Kriol / Aboriginal English',
+         key: 'north_australian_kriol_aboriginal_english',
+         body: [
+           '### Contact:',
+           { textGroup:[
+			 "Caroline Jones, Ph.D. ",
+             "Associate Professor ",
+             "The MARCS Institute for Brain, Behaviour & Development ",
+             "Western Sydney University, Australia ",
+             "caroline.jones@westernsydney.edu.au "
            ]}
          ]
        }, {

@@ -112,6 +112,15 @@ $(function() {
           'Stanford University School of Medicine'
         ],
         email: "annweber@stanford.edu"
+      },
+	  {
+        name: 'Adriana Weisleder',
+        image: "images/board/Weisleder.jpg",
+        titles: [
+          'Department of Communication Sciences and Disorders',
+          'Northwestern University'
+        ],
+        email: "adriana.weisleder@northwestern.edu"
       }
     ]
   };

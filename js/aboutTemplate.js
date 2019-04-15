@@ -4,12 +4,21 @@ $(function() {
   var aboutData = {
     news: [
        {
-          name: 'May 2018',
-          key: 'may_2018',
+          name: 'March 2019',
+          key: 'march_2019',
           mostRecent: true,
           body: [
             { textGroup: [
-                "Did you know that a CDI-based measure can be used to gather data about vocabulary input, specifically the relative frequency of use of individual lexical items, for young children?  [This recently published paper] (documents/Bleses,Vach,Dale2018JChildLang.pdf) provides information about the development of the measure and its validity for Danish.",
+                "The CDI Advisory Board is delighted to announce that Dr. Adriana Weisleder (Northwestern University) is now a member of the Board. Welcome, Adriana! You can read all about Adriana and her research [here!] (https://childlanguagelab.northwestern.edu/)"
+            ] },
+          ]
+      },
+	   {
+          name: 'May 2018',
+          key: 'may_2018',
+          body: [
+            { textGroup: [
+                "Did you know that a CDI-based measure can be used to gather data about vocabulary input, specifically the relative frequency of use of individual lexical items, for young children?  [This recently published paper] (documents/Bleses,Vach,Dale2018JChildLang.pdf) provides information about the development of the measure and its validity for Danish."
             ] },
           ]
       },
