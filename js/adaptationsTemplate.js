@@ -73,18 +73,45 @@ $(function() {
            '### Contact:',
            { textGroup: [
              'Diane Anderson, Ph.D.',
-             'Institute of Human Developmental',
+             'Institute of Human Development',
              'University of California, Berkeley',
              'Berkeley, CA 94720-1950',
-             '*jollysox@eathlink.net.edu*'
+             '*jollysox@earthlink.net*'
            ]},
            { textGroup: [
-             'Judy Reilly',
+             'Judy Reilly, Ph.D.',
              'Department of Psychology',
              'San Diego State University',
              'San Diego, CA 92120',
              'Tel: (619)594-2840',
              '*reilly1@mail.sdsu.edu*'
+           ]},
+		   { textGroup: [
+             'Announcing a new, video-based adaptation of the CDI: Words & Gestures for American Sign Language, to include both a long form and a short form.',
+			 'For more information, please contact:' 
+           ]},
+		   { textGroup: [
+             'Naomi K. Caselli, Ph.D.',
+             'Wheelock College of Education and Human Development',
+             'Boston University',
+             '2 Silber Way, 3rd Floor',
+             'Boston, MA, 02215',
+             '*nkc@bu.edu*'
+           ]},
+		   { textGroup: [
+             'Amy M. Lieberman, Ph.D.',
+             'Wheelock College of Education and Human Development',
+             'Boston University',
+             '2 Silber Way, 3rd Floor',
+             'Boston, MA, 02215',
+             '*alieber@bu.edu*'
+           ]},
+		   { textGroup: [
+             'Jennie E. Pyers, Ph.D.',
+             'Wellesley College',
+             '106 Central Street',
+             'Wellesley, MA, 02481',
+             '*jpyers@wellesley.edu*'
            ]}
          ]
        }, {
