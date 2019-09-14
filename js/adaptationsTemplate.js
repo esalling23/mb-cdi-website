@@ -1069,23 +1069,20 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Sharone L. Maital ",
-              "Department of Education ",
-              "University of Haifa ",
-              "Mount Carmel, Haifa Israel ",
-              "Fax: 972-4-824-0911",
-              "maitals@construct.haifa.ac.il"
+			"Hila Gendler-Shalev",
+			"School of Education",
+			"Tel-Aviv University",
+			"hilags2@gmail.com"
            ]},
            { textGroup: [
-             "Esther Dromi ",
+             "Esther Dromi",
               "School of Education",
               "Tel-Aviv University",
-              "Ramat Aviv, Tel-Aviv",
-              "Israel, 69 979",
-              "Fax: 972-3-648-8571",
-              "dromi@post.tau.ac.il ",
-              "or:",
-              "edromi@netvision.net.il"
+              "dromi@tauex.tau.ac.il"
+           ]},
+		   { textGroup: [
+             "New!",
+              "Click here to view more information provided directly by the authors! [Info2017-Hebrew](documents/Info2017-Hebrew.pdf)"
            ]},
            { textGroup: [
              "![Hebrew Worksheet 1](images/forms/Hebrew_WG.jpg)",
@@ -1102,8 +1099,7 @@ $(function() {
               "**NOTE:** Two earlier papers used a Hebrew adaptation of Camaioni et al.'s modified version of the CDI, which is an observational tool for parents rather than a checklist."
            ]}
          ]
-       }, 
-	   
+       }, 	   
 	   {
          name: 'Hebrew (Multicultural)',
          key: 'hebrew_multicultural',
@@ -1276,6 +1272,22 @@ $(function() {
            { textGroup: [
              "New in 2017!",
              "Click here to view more information provided directly by the authors! [Info2017-ItalianSignLanguage] (documents/Info2017-ItalianSignLanguage.pdf)"
+           ]}
+         ]
+       }, {
+         name: 'Israeli Sign Language',
+         key: 'israeli_sl',
+         body: [
+           '### Contact:',
+           { textGroup: [
+		   "Rama Novogrodsky (and Irit Meir*)", 
+		   "*Irit Meir, our coauthor, colleague, and dear friend, passed away in February 2018.",
+		   "Department of Communication Sciences and Disorders",
+           "University of Haifa",
+           "199 Abba Khoushy Ave.",
+		   "Mount Carmel, Haifa, 3498838, Israel",
+		   "rnovogr1@univ.haifa.ac.il",
+		   "ramanovo@gmail.com"
            ]}
          ]
        }, {
