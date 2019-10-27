@@ -2383,8 +2383,8 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Jen Manialong ",
-             "j_manialong@yahoo.com.ph "
+             "Jenifer Manialong ",
+             "jmanialong@gmail.com "
            ]}
          ]
        }, {
