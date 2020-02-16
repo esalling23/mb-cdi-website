@@ -121,6 +121,15 @@ $(function() {
           'Northwestern University'
         ],
         email: "adriana.weisleder@northwestern.edu"
+      },
+	  {
+        name: 'Consultant to the Board on African languages: Heather Brookes',
+        image: "images/board/HeatherBrookes.png",
+        titles: [
+          'School of African and Gender Studies, Anthropology and Linguistics',
+          'University of Cape Town'
+        ],
+        email: "heather.brookes@uct.ac.za"
       }
     ]
   };
