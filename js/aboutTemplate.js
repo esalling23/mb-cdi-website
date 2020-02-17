@@ -4,6 +4,15 @@ $(function() {
   var aboutData = {
     news: [
        {
+          name: 'February 2020',
+          key: 'Feb_2020',
+          mostRecent: true,
+          body: [
+            { textGroup: [
+                "The MacArthur-Bates CDIs and Board member, Mike Frank, are in the news!!  Read [here!] (https://stanfordmag.org/contents/what-the-kids-are-saying-these-days)"
+            ] },
+          ]
+      },{
           name: 'March 2019',
           key: 'march_2019',
           mostRecent: true,
