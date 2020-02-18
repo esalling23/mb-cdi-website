@@ -123,7 +123,7 @@ $(function() {
         email: "adriana.weisleder@northwestern.edu"
       },
 	  {
-        name: 'Consultant to the Board on African languages: Heather Brookes',
+        name: 'Consultant on African languages: Heather Brookes',
         image: "images/board/HeatherBrookes.png",
         titles: [
           'School of African and Gender Studies, Anthropology and Linguistics',
