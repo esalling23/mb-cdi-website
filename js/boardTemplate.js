@@ -123,10 +123,20 @@ $(function() {
         email: "adriana.weisleder@northwestern.edu"
       },
 	  {
-        name: 'Consultant on African languages: Heather Brookes',
+        name: 'Caroline Rowland',
+        image: "images/board/Rowland.jpg",
+        titles: [
+          'Language Development Department',
+          'Max Planck Institute for Psycholinguistics'
+        ],
+        email: "Caroline.Rowland@mpi.nl"
+      },
+	  {
+        name: 'Heather Brookes',
         image: "images/board/HeatherBrookes.png",
         titles: [
-          'School of African and Gender Studies, Anthropology and Linguistics',
+          'Consultant to the Board: African Languages',
+		  'School of African and Gender Studies, Anthropology and Linguistics',
           'University of Cape Town'
         ],
         email: "heather.brookes@uct.ac.za"
