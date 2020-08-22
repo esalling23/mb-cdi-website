@@ -1563,6 +1563,7 @@ $(function() {
          name: 'Malaysia Malay-English-Mandarin',
          key: 'malayengmandarin',
          body: [
+			'This project has developed a trilingual adaptation of the CDI: Words & Sentences for Malay, English, and Mandarin.',
            '### Contact:',
            { textGroup: [
              "Low Hui Min, Ph.D. ",
