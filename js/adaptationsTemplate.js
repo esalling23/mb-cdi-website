@@ -438,7 +438,7 @@ $(function() {
               'Czech Republic',
               'Tel: +420 224005218',
               'Fax: +420 222221652',
-              'smolik@praha.psu.cas.cz'
+              '*smolik@praha.psu.cas.cz*'
            ]},
            { textGroup:[
              '### Papers and Presentations:',
@@ -446,6 +446,23 @@ $(function() {
              '*- the article provides a review of different methods for diagnosing early children’s vocabulary, and provides a desription of the first pilot version in Czech, including main results from the pilot data*',
              'Smolík, F., Marková, G. (2010, September). Talking about others\' mental states predicts person reference in children. Talk presented at the BPS Developmental Psychology Section Conference, Sept. 15, 2010, Goldsmiths, University of London.',
              'Markova, G., & Smolik, F. (2011, April). What do you think? Talking about others predicts mental state language in 2-year-olds. Poster presented at the Biennial Meeting of the Society for Research in Child Development, Montreal, Canada.'
+           ]}
+         ]
+       }, {
+         name: 'Czech (shortform)',
+         key: 'czechSF',
+         body: [
+           'This project is developing a shortform adaptation for Czech of the CDI:WS drawing on the existing Czech adaptation of the CDI and the UK MCDI:UKSF.  It is designed for children from 23-28 months.  This language assessment instrument is to be part of a Czech adaptation of the *Parent Report of Children\'s Abilities - Revised* (PARCA-R) language and cognitive assessment for two-year olds developed by Samantha Johnson and colleagues in the UK.',
+		   '### Contact:',
+           { textGroup:[
+             'Julie Žalmanová',
+              'Tel: +420 606 620 425',
+              '*julie.zalmanova@volny.cz*',
+			  '*julie.zalmanova@upmd.eu*'
+           ]},
+           { textGroup:[
+             'Prof. Ladislav Krofta (project supervisor)',
+			 '*ladislav.krofta@upmd.eu*' 
            ]}
          ]
        }, {
@@ -458,7 +475,7 @@ $(function() {
               'School of Communication and Culture (Centre for Child Language)',
               'Aarhus University',
               'Denmark',
-              'Bleses@au.dk'
+              '*Bleses@au.dk*'
            ]},
            '![Ord of gestikultion](images/forms/Danish_WG.jpg)![Tidlig Kommunikativ Udvikling](images/forms/DanishManual.jpg)',
            { textGroup:[
@@ -686,25 +703,28 @@ $(function() {
          name: 'Finnish',
          key: 'finnish',
          body: [
-           'Original Long Form Version developed by Paula Lyytinen.',
-           'Short Form developed by Suvi Stolt.',
+           'Original Long Form Versions developed by Paula Lyytinen.',
+           'Short Forms developed by Suvi Stolt and Suvi-Maria Vehkavuori',
+		   'Manual: Stolt, Suvi & Vehkavuori, Suvi-Maria (2018). Sanaseula. MacArthur Communicative Development Inventories - arviointimenetelmän lyhyt, suomalainen versio. Jyväskylä: Niilo Mäki Instituutti',
+		   ' ',
            '### Contact:',
            { textGroup:[
              'Dr. Suvi Stolt',
-              'University of Turku',
-              'Dept. of Social Sciences and Philosophy, Logopedics',
-              'Assistentinkatu 7, Publicum',
-              '20014 University of Turku',
+              'University of Helsinki',
+              'Faculty of Medicine, Dept. of Psychology and Logopedics',
+              'Haartmaninkatu 3, P.O. Box 21',
+              '00014 University of Helsinki',
               'Finland',
-              'Suvi.Stolt@utu.fi'
+              'Suvi.Stolt@helsinki.fi'
            ]},
            { textGroup: [
-             '![Finnish worksheet 1](images/forms/Finland_WG.jpg)',
-             '![Finnish worksheet 2](images/forms/Finland_WS.jpg)',
-             '![Finnish Manual](images/forms/FinnishManual.jpg)'
+              '![Finnish Short Form Manual](images/forms/Sanaseula.jpg)',
+			  '![Finnish worksheet 1](images/forms/Finland_WG.jpg)',
+			  '![Finnish worksheet 2](images/forms/Finland_WS.jpg)',
+              '![Finnish Manual](images/forms/FinnishManual.jpg)'
            ]},
            { textGroup: [
-             '### Publications',
+             '### Publications:',
               "Jansson-Verkasalo, E., Ruusuvirta, T., Huotilainen, M., Alku, P.,<br>Kushnerenko, E., Suominen, K., Rytky, S., Luotonen, M., Kaukola, T.,<br>Tolonen, U. & Hallman, M. (2010). Atypical perceptual narrowing in prematurely born infants is associated with compromised language acquisition at 2 years of age. BMC Neuroscience, 11:88.",
               "Jansson-Verkasalo, E., Valkama, M., Vainionpää, L., Pääkkö, E, Ilkko, E. & Lehtihalmes, M.(2004). Language development in very low birth weight preterm children: a follow-up study. Phoniatrica et Logopaedica, 56: 108-119.",
               "Paavola, L., Kunnari, S. & Moilanen, I. (2005). Maternal responsiveness and infant intentional communication: implications for the early communicative and linguistic development. Child: Care, Health and Development, 31 (6):727-735.",
@@ -717,7 +737,7 @@ $(function() {
               "Stolt, S., Klippi, A., Launonen, K., Munck, P., Lehtonen, L., Lapinleimu, H., Haataja, L. and the Pipari Study Group (2007). Size and composition of the lexicon in prematurely born- very-low-birth-weight and full-term Finnish children at two years of age. Journal of Child Language, 34, 283-310"
           ]},
           { textGroup: [
-              'Long Form Publications',
+              'Long Form Publications:',
               "Lyytinen, P., & Lyytinen, H. (2004). Growth and predictive relations of vocabulary and inflectional morphology in children with and without familial risk for dyslexia. Applied Psycholinguistics, 25, 397-411.",
               "Guttorm, T.K., Leppänen, P.H.T., Poikkeus, A.-M., Eklund, K.M., Lyytinen, P., & Lyytinen, H. (2005). Brain event-related potentials (ERPs) measured at birth predict later language development in children with and without familial risk for dyslexia. Cortex, 41, 291-303.",
               "Lyytinen, P., Eklund, K., & Lyytinen, H. (2005) Language development and literacy skills in late-talking toddlers with and without familial risk for dyslexia. Annals of Dyslexia, 55, 166-192.",
@@ -1537,6 +1557,23 @@ $(function() {
            { textGroup: [
              "### New in 2017!",
              "Click here to view more information provided directly by the authors! [Info2017-Malayalam](documents/Info2017-Malayalam.pdf)"
+           ]}
+         ]
+       },  {
+         name: 'Malaysia Malay-English-Mandarin',
+         key: 'malayengmandarin',
+         body: [
+           '### Contact:',
+           { textGroup: [
+             "Low Hui Min, Ph.D. ",
+              "School of Educational Studies ",
+              "Universiti Sains Malaysia ",
+              "Minden 11800 ",
+              "Penang, Malaysia",
+              "Tel: 604-6535419 ",
+              "*lowhm@usm.my*",
+			  "[About Dr. Low Hui Min](https://education.usm.my/index.php/about-us/academic-staff/senior-lecturer/262-dr-low-hui-min)",
+			  "[The Story of Khamdy - ASD Teacher Training] (https://www.youtube.com/playlist?list=PL5VMeQ-DwkUPOBfBlEvKI8Opf1TetjDC_)"
            ]}
          ]
        }, {
@@ -2538,22 +2575,23 @@ $(function() {
          name: 'Wolof',
          key: 'wolof',
          body: [
-           'This is an adaptation of the CDI:WS short form.',
+           'This is an adaptation of the CDI:WS short form.  For more information, see Weber, Marchman, Diop & Fernald (2018). Journal of Child Language, 45(4), 939-958.',
            '### Contact:',
            { textGroup:[
-             "Ann Weber ",
-             "Department of Neonatal and Developmental Medicine ",
-             "Stanford University School of Medicine",
-             "Stanford, CA 94305 ",
-             "annweber@stanford.edu"
+             "Ann Weber, Ph.D, MPH",
+             "School of Community and Health Sciences",
+             "1664 N. Virginia Street",
+			 "University of Nevada, Reno",
+             "Reno, NV 89557 ",
+             "*annweber@unr.edu*"
            ]},
            { textGroup:[
-             "Virginia A. Marchman ",
+             "Virginia A. Marchman, Ph.D. ",
              "Department of Psychology ",
-             "450 Serra Mall ",
+             "450 Jane Stanford Way ",
              "Stanford University ",
              "Stanford, CA 94305 ",
-             "marchman@stanford.edu"
+             "*marchman@stanford.edu*"
            ]}
          ]
        }, {
