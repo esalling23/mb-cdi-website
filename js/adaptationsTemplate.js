@@ -1042,12 +1042,11 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-             "Sharone L. Maital ",
-              "Department of Education ",
-              "University of Haifa ",
-              "Mount Carmel, Haifa Israel ",
-              "Fax: 972-4-824-0911",
-              "maitals@construct.haifa.ac.il"
+             "Hila Gendler-Shalev",
+			 "School of Education",
+			 "Tel-Aviv University",
+			 "Ramat Aviv, Tel-Aviv",
+			 "hilags2@gmail.com"
            ]},
            { textGroup: [
              "Esther Dromi ",
@@ -1195,6 +1194,25 @@ $(function() {
            ]}
          ]
        }, {
+         name: 'Israeli Sign Language (ISL)',
+         key: 'israeli_sign_language',
+         body: [
+           '### Contact:',
+           { textGroup:[
+             "Rama Novogrodsky and Irit Meir*",
+			"*Irit Meir, our coauthor, colleague, and dear friend, passed away in February 2018.",
+			"Rama Novogrodsky",
+			"Department of Communication Sciences and Disorders",
+			"University of Haifa",
+			"199 Abba Khoushy Ave",
+			"Mount Carmel, Haifa, 3498838, Israel",
+			"rnovogr1@univ.haifa.ac.il or ramanovo@gmail.com"
+           ]},
+         ]
+       }, 
+	   
+	   
+	   {
          name: 'Italian',
          key: 'italian',
          body: [
