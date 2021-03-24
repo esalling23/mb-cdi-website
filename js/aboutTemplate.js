@@ -4,6 +4,24 @@ $(function() {
   var aboutData = {
     news: [
        {
+          name: 'March 2020',
+          key: 'March_2020',
+          mostRecent: true,
+          body: [
+            { textGroup: [
+                "The MacArthur-Bates CDI Advisory Board is excited to welcome Dr. Caroline Rowland to the Board!  Caro is Director of the Language Development Department at the Max Planck Institute for Psycholinguistics.  Read more about Caro and her ongoing research [here!] (https://www.mpi.nl/people/rowland-caroline)"
+            ] },
+          ]
+      },{
+          name: 'February 2020',
+          key: 'Feb_2020',
+          mostRecent: true,
+          body: [
+            { textGroup: [
+                "The MacArthur-Bates CDIs and Board member, Mike Frank, are in the news!!  Read [here!] (https://stanfordmag.org/contents/what-the-kids-are-saying-these-days)"
+            ] },
+          ]
+      },{
           name: 'March 2019',
           key: 'march_2019',
           mostRecent: true,

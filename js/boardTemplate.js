@@ -44,9 +44,9 @@ $(function() {
           name: 'Donna Thal',
           image: "images/board/DonnaThal.png",
           titles: [
-            'Distinguished Professor Emerita',
-			'School of Speech, Language, and Hearing Sciences',
-            'San Diego State University'
+            "Distinguished Professor Emerita",
+			"School of Speech, Language, and Hearing Sciences",
+            "San Diego State University"
           ],
           email: "donnathal01@gmail.com"
       },
@@ -108,10 +108,10 @@ $(function() {
         name: 'Ann Weber',
         image: "images/board/AnnWeber.jpg",
         titles: [
-          'Department of Pediatrics',
-          'Stanford University School of Medicine'
+          'School of Community Health Sciences',
+          'University of Nevada, Reno'
         ],
-        email: "annweber@stanford.edu"
+        email: "annweber@unr.edu"
       },
 	  {
         name: 'Adriana Weisleder',
@@ -121,6 +121,25 @@ $(function() {
           'Northwestern University'
         ],
         email: "adriana.weisleder@northwestern.edu"
+      },
+	  {
+        name: 'Caroline Rowland',
+        image: "images/board/Rowland.jpg",
+        titles: [
+          'Language Development Department',
+          'Max Planck Institute for Psycholinguistics'
+        ],
+        email: "Caroline.Rowland@mpi.nl"
+      },
+	  {
+        name: 'Heather Brookes',
+        image: "images/board/HeatherBrookes.png",
+        titles: [
+          'Consultant to the Board: African Languages',
+		  'School of African and Gender Studies, Anthropology and Linguistics',
+          'University of Cape Town'
+        ],
+        email: "heather.brookes@uct.ac.za"
       }
     ]
   };
