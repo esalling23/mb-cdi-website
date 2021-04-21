@@ -1089,18 +1089,10 @@ $(function() {
          body: [
            '### Contact:',
            { textGroup:[
-<<<<<<< HEAD
              "Hila Gendler-Shalev",
-			 "School of Education",
-			 "Tel-Aviv University",
-			 "Ramat Aviv, Tel-Aviv",
+			 "Communication Sciences and Disorders",
+			 "University of Haifa",
 			 "hilags2@gmail.com"
-=======
-			"Hila Gendler-Shalev",
-			"School of Education",
-			"Tel-Aviv University",
-			"hilags2@gmail.com"
->>>>>>> 4c29fc025ca51e63d4530212872c70d3a88f87cd
            ]},
            { textGroup: [
              "Esther Dromi",
@@ -1109,26 +1101,14 @@ $(function() {
               "dromi@tauex.tau.ac.il"
            ]},
 		   { textGroup: [
-             "New!",
-              "Click here to view more information provided directly by the authors! [Info2017-Hebrew](documents/Info2017-Hebrew.pdf)"
+              "Click here to view more information provided directly by the authors! [Info2021-Hebrew](documents/Info2021-Hebrew.pdf)"
            ]},
            { textGroup: [
-             "![Hebrew Worksheet 1](images/forms/Hebrew_WG.jpg)",
-             "![Hebrew Worksheet 2](images/forms/Hebrew_WS.jpg)"
-           ]},
-           { textGroup: [
-             "Maital, S., Dromi, E. & Sagi, A. (1995). Development of a Hebrew version of the MacArthur Inventory: A parent questionnaire for evaluating toddler language development. Paper presented at the annual meeting of Research in Education, Jerusalem, 1995.",
-              "Maital, S & Dromi, E. ( 1997). Developing the Hebrew MCDI: A tool for studying intracultural variability and cross-linguistic comparisons. Poster presented at the Society for Research in Child Development, Washington, DC, USA.",
-              "Maital, S., Dromi, E. Sagi, A. & Bornstein, M. H. (2000). The Hebrew Communicative Development Inventory: Language specific properties and cross-linguistic generalizations, Journal of Child Language, 27, 1-25.",
-              "**NOTE:** related papers used a Hebrew adaptation of Camaioni et al.'s modified version of the CDI, which is an observational tool for parents for the evaluation of pre-linguistic behaviors of infants:",
-              "Dromi, E. (1992). The development of prelinguistic communication: Implications for language evaluation. In Anastasio, J.N. and Harel, S. (Eds.), At risk infants: Interventions, families, and research. Baltimore, Maryland: Paul Brooks Publishing Co.",
-              "Maital, S., Dromi, E. & Sagi, A. (1995). Development of a Hebrew version of the MacArthur Inventory: A parent questionnaire for evaluating toddler language development. Paper presented at the annual meeting of Research in Education, Jerusalem, 1995.",
-              "Maital, S., Dromi, E. Sagi, A. & Bornstein, M. H. (2000). The Hebrew Communicative Development Inventory: Language specific properties and cross-linguistic generalizations, Journal of Child Language, 27, 1-25.",
-              "**NOTE:** Two earlier papers used a Hebrew adaptation of Camaioni et al.'s modified version of the CDI, which is an observational tool for parents rather than a checklist."
+             "Gendler-Shalev, H., &amp; Dromi, E. (2021). The Hebrew Web Communicative Development Inventory (MB-CDI): Lexical Development Growth Curves. Journal of Child Language, 1-17. https://doi.org/10.1017/S0305000921000179",
+             "Maitel, S. L., Dromi, E., Sagi, A., &amp; Bornstein, M. H. (2000). The Hebrew Communicative Development Inventory: Language specific properties and cross-linguistic generalizations. Journal of Child Language, 27(1), 43-67."
            ]}
          ]
-       }, 	   
-	   {
+       }, {
          name: 'Hebrew (Multicultural)',
          key: 'hebrew_multicultural',
          body: [
